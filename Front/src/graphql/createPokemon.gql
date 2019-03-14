@@ -1,0 +1,16 @@
+mutation ($nationalId: Int!, $name: String!, $label: String, $region: Region!, $shiny: Boolean, $types: [Type!]!, $weight: Float, $size: Float, $parents: [ParentInput]) {
+  createPokemon(nationalId: $nationalId, name: $name, label: $label, region: $region, shiny: $shiny, types: $types, weight: $weight, size: $size, parents: $parents) {
+    nationalId
+    name
+    label
+    region
+    shiny
+    types
+    weight
+    size
+    parents {
+      nationalId
+      name
+    }
+  }
+}

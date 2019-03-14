@@ -1,0 +1,16 @@
+query ($nationalId: Int!) {
+  pokemon (nationalId: $nationalId) {
+    nationalId
+    name
+    label
+    region
+    shiny
+    types
+    weight
+    size
+    parents {
+      nationalId
+      name
+    }
+  }
+}

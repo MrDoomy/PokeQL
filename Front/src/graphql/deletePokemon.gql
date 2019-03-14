@@ -1,0 +1,6 @@
+mutation ($nationalId: Int!) {
+  deletePokemon(nationalId: $nationalId) {
+    nationalId
+    name
+  }
+}

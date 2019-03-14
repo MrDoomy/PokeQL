@@ -1,0 +1,9 @@
+query ($region: Region) {
+  pokedex (region: $region) {
+    nationalId
+    name
+    label
+    shiny
+    types
+  }
+}
