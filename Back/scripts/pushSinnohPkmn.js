@@ -347,19 +347,24 @@ var sinnoh = [
     types: ['Insecte', 'Vol'],
     weight: 5.5,
     size: 0.3,
+    parents: [
+      {
+        nationalId: 416,
+        name: 'Apireine'
+      }
+    ]
+  },
+  {
+    nationalId: 416,
+    name: 'Apireine',
+    label: 'Pokémon Ruche',
+    shiny: false,
+    types: ['Insecte', 'Vol'],
+    weight: 38.5,
+    size: 1.2,
     parents: []
   },
   /* {
-    nationalId: 416,
-    name: 'Apireine',
-    label: '',
-    shiny: false,
-    types: ['Insecte', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 417,
     name: 'Pachirisu',
     label: '',

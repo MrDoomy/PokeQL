@@ -261,18 +261,23 @@ var hoenn = [
     types: ['Eau', 'Plante'],
     weight: 32.5,
     size: 1.2,
-    parents: []
+    parents: [
+      {
+        nationalId: 272,
+        name: 'Ludicolo'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 272,
     name: 'Ludicolo',
-    label: '',
+    label: 'Pokémon Insouciant',
     shiny: false,
     types: ['Eau', 'Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 55.0,
+    size: 1.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 273,
     name: 'Grainipiot',
