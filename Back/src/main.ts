@@ -10,7 +10,7 @@ const app = new App().express;
 
 const config = {
   host: 'localhost' as string,
-  port: '27017' as string,
+  port: 27017 as number,
   db: 'pokedex' as string
 };
 

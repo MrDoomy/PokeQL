@@ -1181,17 +1181,17 @@ var johto = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 249,
     name: 'Lugia',
-    label: '',
+    label: 'Pokémon Plongeon',
     shiny: false,
     types: ['Psy', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 216.0,
+    size: 5.2,
     parents: []
-  }, */
+  },
   {
     nationalId: 250,
     name: 'Ho-oh',

@@ -43,7 +43,8 @@
 <script lang="ts">
 import orderBy from 'lodash/orderBy';
 import { Component, Mixins } from 'vue-property-decorator';
-import * as Types from '@/constants';
+import * as Regions from '@/constants/regions';
+import * as Types from '@/constants/types';
 import { ConvertMixin } from '@/mixins';
 import { capitalize, isDevEnv } from '@/utils';
 import Card from '../Card.vue';
@@ -54,6 +55,7 @@ interface Pkmn {
   nationalId: number;
   name: string;
   shiny: boolean;
+  region: string;
   types: string[];
 }
 
@@ -99,7 +101,7 @@ export default class List extends Mixins(ConvertMixin) {
 
   private orderList(list: Pkmn[]): Pkmn[] {
     return orderBy(list, 'nationalId').filter((pkmn: Pkmn) => {
-      const { nationalId, name, shiny, types } = pkmn;
+      const { nationalId, name, shiny, region, types } = pkmn;
 
       // Filter By National ID
       if (this.search.charAt(0) === '#') {
@@ -109,6 +111,11 @@ export default class List extends Mixins(ConvertMixin) {
       // Filter By Shiny
       if (this.search.toUpperCase() === 'SHINY') {
         return shiny;
+      }
+
+      // Filter By Region
+      if (Object.values(Regions).includes(this.search)) {
+        return region === this.search;
       }
 
       // Filter By Types

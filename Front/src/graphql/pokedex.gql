@@ -4,6 +4,7 @@ query ($region: Region) {
     name
     label
     shiny
+    region
     types
   }
 }

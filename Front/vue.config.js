@@ -1,5 +1,5 @@
 module.exports = {
-  baseUrl: '.',
+  publicPath: '.',
   devServer: {
     port: 1234,
     proxy: {
