@@ -13,7 +13,7 @@ export const createPokemon = (_: any, { nationalId, name, label, region, shiny, 
 
 export const updatePokemon = (_: any, { nationalId, name, label, region, shiny, types, weight, size, parents }: Pokemon) => {
   return new Promise((resolve, reject) => {
-    PokemonModel.findOneAndUpdate({ nationalId }, { $set: { name, label, region, shiny, types, weight, size, parents }}).exec((err: Error, res: Pokemon) => {
+    PokemonModel.findOneAndUpdate({ nationalId }, { name, label, region, shiny, types, weight, size, parents }).exec((err: Error, res: Pokemon) => {
       err ? reject(err) : resolve(res);
     });
   });

@@ -25,20 +25,30 @@ const createPkmn = (pkmn: Pokemon) => {
   newPkmn.save();
 };
 
+const readPkmn = (pkmn: Pokemon) => {
+  const { nationalId } = pkmn;
+
+  PokemonModel.findOne({ nationalId }).exec((err: Error, res: Pokemon) => {
+    if (err) {
+      console.log(err);
+    }
+
+    res ? updatePkmn(pkmn) : createPkmn(pkmn);
+  });
+};
+
 const updatePkmn = (pkmn: Pokemon) => {
   const { nationalId, name, label, region, shiny, types, weight, size, parents } = pkmn;
 
   PokemonModel.findOneAndUpdate({ nationalId }, {
-    $set: {
-      name,
-      label,
-      region,
-      shiny,
-      types,
-      weight,
-      size,
-      parents
-    } 
+    name,
+    label,
+    region,
+    shiny,
+    types,
+    weight,
+    size,
+    parents
   }).exec();
 };
 
@@ -46,29 +56,8 @@ const updatePkmn = (pkmn: Pokemon) => {
  * Initialize Data
  */
 export const initDataBase = () => {
-  PokemonModel.find().exec((err: Error, res: Pokemon[]) => {
-    if (err) {
-      console.log(err);
-    }
-
-    // Kanto
-    res.length > 0
-      ? pkmnFromKanto.forEach((pkmn: any) => updatePkmn(pkmn))
-      : pkmnFromKanto.forEach((pkmn: any) => createPkmn(pkmn));
-
-    // Johto
-    res.length > 0
-      ? pkmnFromJohto.forEach((pkmn: any) => updatePkmn(pkmn))
-      : pkmnFromJohto.forEach((pkmn: any) => createPkmn(pkmn));
-
-    // Hoenn
-    res.length > 0
-      ? pkmnFromHoenn.forEach((pkmn: any) => updatePkmn(pkmn))
-      : pkmnFromHoenn.forEach((pkmn: any) => createPkmn(pkmn));
-
-    // Sinnoh
-    res.length > 0
-      ? pkmnFromSinnoh.forEach((pkmn: any) => updatePkmn(pkmn))
-      : pkmnFromSinnoh.forEach((pkmn: any) => createPkmn(pkmn));
-  });
+  pkmnFromKanto.forEach((pkmn: any) => readPkmn(pkmn));
+  pkmnFromJohto.forEach((pkmn: any) => readPkmn(pkmn));
+  pkmnFromHoenn.forEach((pkmn: any) => readPkmn(pkmn));
+  pkmnFromSinnoh.forEach((pkmn: any) => readPkmn(pkmn));
 };

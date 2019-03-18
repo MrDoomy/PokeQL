@@ -1602,18 +1602,18 @@ var hoenn = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 384,
     name: 'Rayquaza',
-    label: '',
+    label: 'Pokémon Cieux',
     shiny: false,
     types: ['Dragon', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 206.5,
+    size: 7.0,
     parents: []
   },
-  {
+  /* {
     nationalId: 385,
     name: 'Jirachi',
     label: '',
