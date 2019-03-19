@@ -1,43 +1,43 @@
 <template>
-  <Card>
-    <div v-if="!devEnv" class="container">
-      <Field label="Recherche" :value="search" :handleChange="handleSearch" />
-    </div>
-    <Item
-      v-if="devEnv"
-      title="Nouveau"
-      subTitle="Ajouter Un Pokémon"
-      :handleClick="goToNew"
-      faIcon="plus"
-      leftColor="#fd2e76"
-      rightColor="#fd2e76">
-      <div class="clearfix">
-        <i class="fa fa-angle-right" />
-      </div>
-    </Item>
-    <ApolloQuery :query="require('@/graphql/pokedex.gql')" :variables="vars">
-      <template slot-scope="{ result: { data, error, loading } }">
-        <p v-if="loading">Loading PokéDex...</p>
-        <p v-else-if="error">PokéDex Error !</p>
-        <template v-else-if="data">
-          <h4>
-            <strong>{{ orderList(data.pokedex).length }}</strong> Pokémon Référencé{{ orderList(data.pokedex).length > 1 ? 's' : '' }}
-          </h4>
-          <Item
-            v-for="pkmn in orderList(data.pokedex)"
-            :key="pkmn.nationalId"
-            :title="`#${numericToText(pkmn.nationalId)} ${pkmn.name}`"
-            :subTitle="pkmn.label"
-            :handleClick="() => goToPokemon(pkmn.nationalId)"
-            :imgSrc="`/sprites/${numericToText(pkmn.nationalId)}.png`">
-            <div class="clearfix">
-              <i class="fa fa-angle-right" />
-            </div>
-          </Item>
-        </template>
-      </template>
-    </ApolloQuery>
-  </Card>
+  <ApolloQuery :query="require('@/graphql/pokedex.gql')" :variables="vars">
+    <template slot-scope="{ result: { data, error, loading } }">
+      <p v-if="loading">Loading...</p>
+      <Failed v-else-if="error" />
+      <Card v-else-if="data">
+        <div v-if="!devEnv" class="container">
+          <form>
+            <Field label="Recherche" :value="search" :handleChange="handleSearch" />
+          </form>
+        </div>
+        <Item
+          v-if="devEnv"
+          title="Nouveau"
+          subTitle="Ajouter Un Pokémon"
+          :handleClick="goToNew"
+          faIcon="plus"
+          leftColor="#fd2e76"
+          rightColor="#fd2e76">
+          <div class="clearfix">
+            <i class="fa fa-angle-right" />
+          </div>
+        </Item>
+        <h4>
+          <strong>{{ orderList(data.pokedex).length }}</strong> Pokémon Référencé{{ orderList(data.pokedex).length > 1 ? 's' : '' }}
+        </h4>
+        <Item
+          v-for="pkmn in orderList(data.pokedex)"
+          :key="pkmn.nationalId"
+          :title="`#${numericToText(pkmn.nationalId)} ${pkmn.name}`"
+          :subTitle="pkmn.label"
+          :handleClick="() => goToPokemon(pkmn.nationalId)"
+          :imgSrc="`/sprites/${numericToText(pkmn.nationalId)}.png`">
+          <div class="clearfix">
+            <i class="fa fa-angle-right" />
+          </div>
+        </Item>
+      </Card>
+    </template>
+  </ApolloQuery>
 </template>
 
 <script lang="ts">
@@ -48,6 +48,7 @@ import * as Types from '@/constants/types';
 import { ConvertMixin } from '@/mixins';
 import { capitalize, isDevEnv } from '@/utils';
 import Card from '../Card.vue';
+import Failed from '../Failed.vue';
 import Field from '../Field.vue';
 import Item from '../Item.vue';
 
@@ -62,6 +63,7 @@ interface Pkmn {
 @Component({
   components: {
     Card,
+    Failed,
     Field,
     Item,
   },
