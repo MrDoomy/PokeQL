@@ -5,9 +5,7 @@
       <Failed v-else-if="error" />
       <Card v-else-if="data">
         <div v-if="!devEnv" class="container">
-          <form>
-            <Field label="Recherche" :value="search" :handleChange="handleSearch" />
-          </form>
+          <Field label="Recherche" :value="search" :handleChange="handleSearch" />
         </div>
         <Item
           v-if="devEnv"

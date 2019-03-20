@@ -228,3 +228,10 @@ input:focus ~ .bar {
     width: 50%;
   }
 }
+
+/* Responsive */
+@media only screen and (max-width: 480px) {
+  input {
+    width: 19.75em;
+  }
+}
