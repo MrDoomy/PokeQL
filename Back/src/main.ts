@@ -50,10 +50,4 @@ const display = () => {
 };
 
 // Run
-app.listen(port, (err: Error) => {
-  if (err) {
-    return console.log(err);
-  }
-
-  display();
-});
+app.listen(port, () => display());
