@@ -36,9 +36,12 @@ body {
   .list-item {
     padding: 16px;
 
-    cursor: pointer;
-    &:hover {
-      background-color: #f3f3f3;
+    &.clickable {
+      cursor: pointer;
+
+      &:hover {
+        background-color: #f3f3f3;
+      }
     }
 
     .list-content,

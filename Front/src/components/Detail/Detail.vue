@@ -17,7 +17,12 @@
         <Item
           title="Région"
           :subTitle="data.pokemon.region"
-          faIcon="globe-europe" />
+          faIcon="globe-europe"
+          :handleClick="() => goToPokedex(data.pokemon.region)">
+          <div class="clearfix">
+            <i class="fa fa-angle-left" />
+          </div>
+        </Item>
         <Item
           :title="`Type${data.pokemon.types.length > 1 ? 's' : ''}`"
           :subTitle="`${data.pokemon.types.join(' / ')}`"
@@ -89,6 +94,10 @@ export default class Detail extends Mixins(ConvertMixin) {
 
   private goToPokemon(nationalId: number) {
     this.goTo(`/pokemon/${nationalId}`);
+  }
+
+  private goToPokedex(region: string) {
+    this.goTo(`/pokedex/${region.toLowerCase()}`);
   }
 
   private spritePath(pkmn: Pkmn): string {

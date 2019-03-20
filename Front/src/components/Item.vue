@@ -1,5 +1,5 @@
 <template>
-  <div class="list-item" @click="handleClick()">
+  <div :class="`list-item ${handleClick ? 'clickable' : ''}`" @click="handleClick && handleClick()">
     <div class="list-icon">
       <div class="circle-icon">
         <div class="half left" :style="{ backgroundColor: leftColor }"></div>
@@ -23,7 +23,7 @@ import { Component, Prop, Vue } from 'vue-property-decorator';
 export default class Card extends Vue {
   @Prop() private title?: string;
   @Prop() private subTitle?: string;
-  @Prop() private handleClick!: void;
+  @Prop() private handleClick?: void;
   @Prop() private imgSrc?: string;
   @Prop() private faIcon?: string;
   @Prop() private leftColor?: string;
