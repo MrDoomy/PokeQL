@@ -263,7 +263,7 @@ var sinnoh = [
     nationalId: 407,
     name: 'Roserade',
     label: 'Pokémon Bouquet',
-    shiny: false,
+    shiny: true,
     types: ['Plante', 'Poison'],
     weight: 14.5,
     size: 0.9,
