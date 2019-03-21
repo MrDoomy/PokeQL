@@ -694,17 +694,17 @@ var sinnoh = [
     size: 0.6,
     parents: []
   },
-  /* {
+  {
     nationalId: 447,
     name: 'Riolu',
-    label: '',
+    label: 'Pokémon Emanation',
     shiny: false,
     types: ['Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 20.2,
+    size: 0.7,
     parents: []
   },
-  {
+  /* {
     nationalId: 448,
     name: 'Lucario',
     label: '',

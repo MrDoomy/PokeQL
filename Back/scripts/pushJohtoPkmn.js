@@ -389,16 +389,16 @@ var johto = [
     size: 1.4,
     parents: []
   },
-  /* {
+  {
     nationalId: 182,
     name: 'Joliflor',
-    label: '',
+    label: 'Pokémon Fleur',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 5.8,
+    size: 0.4,
     parents: []
-  }, */
+  },
   {
     nationalId: 183,
     name: 'Marill',
