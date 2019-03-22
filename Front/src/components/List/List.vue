@@ -1,5 +1,5 @@
 <template>
-  <ApolloQuery :query="require('@/graphql/pokedex.gql')" :variables="vars">
+  <ApolloQuery :query="require('@/graphql/pokedex.gql')" :variables="vars" fetchPolicy="cache-and-network">
     <template slot-scope="{ result: { data, error, loading } }">
       <p v-if="loading">Loading...</p>
       <Failed v-else-if="error" />
