@@ -434,16 +434,16 @@ var johto = [
     size: 1.2,
     parents: []
   },
-  /* {
+  {
     nationalId: 186,
     name: 'Tarpaud',
-    label: '',
+    label: 'Pokémon Grenouille',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 33.9,
+    size: 1.1,
     parents: []
-  }, */
+  },
   {
     nationalId: 187,
     name: 'Granivol',

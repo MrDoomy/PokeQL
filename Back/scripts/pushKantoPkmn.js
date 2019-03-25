@@ -398,7 +398,7 @@ var kanto = [
     nationalId: 31,
     name: 'Nidoqueen',
     label: 'Pokémon Perceur',
-    shiny: false,
+    shiny: true,
     types: ['Poison', 'Sol'],
     weight: 60.0,
     size: 1.3,
@@ -795,6 +795,10 @@ var kanto = [
       {
         nationalId: 62,
         name: 'Tartard'
+      },
+      {
+        nationalId: 186,
+        name: 'Tarpaud'
       }
     ]
   },

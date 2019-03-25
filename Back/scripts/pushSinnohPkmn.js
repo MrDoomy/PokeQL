@@ -299,17 +299,17 @@ var sinnoh = [
     size: 0.5,
     parents: []
   },
-  /* {
+  {
     nationalId: 411,
     name: 'Bastiodon',
-    label: '',
+    label: 'Pokémon Bouclier',
     shiny: false,
     types: ['Roche', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 149.5,
+    size: 1.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 412,
     name: 'Cheniti',
     label: '',
