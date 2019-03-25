@@ -5,6 +5,7 @@
       subTitle="La connexion a échouée"
       faIcon="exclamation"
       :handleClick="reload" />
+    <slot />
   </Card>
 </template>
 

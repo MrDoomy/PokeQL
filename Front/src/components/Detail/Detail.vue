@@ -2,7 +2,9 @@
   <ApolloQuery :query="require('@/graphql/pokemon.gql')" :variables="{ nationalId: parseInt($route.params.nationalId) }">
     <template slot-scope="{ result: { data, error, loading } }">
       <p v-if="loading">Loading...</p>
-      <Failed v-if="error" title="#000" />
+      <Failed v-if="error" title="#000">
+        <Repo />
+      </Failed>
       <Card v-if="data" :title="`#${numericToText(data.pokemon.nationalId)}`">
         <Item
           :title="data.pokemon.name"
@@ -64,6 +66,7 @@ import { isDevEnv } from '@/utils';
 import Card from '../Card.vue';
 import Failed from '../Failed.vue';
 import Item from '../Item.vue';
+import Repo from '../Repo.vue';
 import Remove from './Remove.vue';
 
 interface Pkmn {
@@ -76,6 +79,7 @@ interface Pkmn {
     Card,
     Failed,
     Item,
+    Repo,
     Remove,
   },
 })

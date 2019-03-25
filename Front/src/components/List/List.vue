@@ -2,7 +2,9 @@
   <ApolloQuery :query="require('@/graphql/pokedex.gql')" :variables="vars" fetchPolicy="cache-and-network">
     <template slot-scope="{ result: { data, error, loading } }">
       <p v-if="loading">Loading...</p>
-      <Failed v-else-if="error" />
+      <Failed v-else-if="error">
+        <Repo />
+      </Failed>
       <Card v-else-if="data">
         <div v-if="!devEnv" class="container">
           <Field label="Recherche" :value="search" :handleChange="handleSearch" />
@@ -33,6 +35,7 @@
             <i class="fa fa-angle-right" />
           </div>
         </Item>
+        <Repo />
       </Card>
     </template>
   </ApolloQuery>
@@ -49,6 +52,7 @@ import Card from '../Card.vue';
 import Failed from '../Failed.vue';
 import Field from '../Field.vue';
 import Item from '../Item.vue';
+import Repo from '../Repo.vue';
 
 interface Pkmn {
   nationalId: number;
@@ -64,6 +68,7 @@ interface Pkmn {
     Failed,
     Field,
     Item,
+    Repo,
   },
 })
 export default class List extends Mixins(ConvertMixin) {
