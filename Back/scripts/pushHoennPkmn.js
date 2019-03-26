@@ -1057,7 +1057,7 @@ var hoenn = [
     nationalId: 337,
     name: 'Séléroc',
     label: 'Pokémon Météorite',
-    shiny: false,
+    shiny: true,
     types: ['Roche', 'Psy'],
     weight: 168.0,
     size: 1.0,
