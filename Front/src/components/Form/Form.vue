@@ -15,7 +15,7 @@
       <template slot-scope="{ mutate }">
         <Item
           title="Retour"
-          subTitle="Voir Le PokéDex"
+          subTitle="Voir Le Pokédex"
           :handleClick="goBack"
           faIcon="list-ul">
           <div class="clearfix">
@@ -56,8 +56,8 @@
           subTitle="Valider & Terminer"
           :handleClick="mutate"
           faIcon="check"
-          leftColor="#fd2e76"
-          rightColor="#fd2e76">
+          leftColor="#ef5350"
+          rightColor="#ef5350">
           <div class="clearfix">
             <i class="fa fa-angle-left" />
           </div>

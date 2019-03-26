@@ -15,8 +15,8 @@
           subTitle="Ajouter Un Pokémon"
           :handleClick="goToNew"
           faIcon="plus"
-          leftColor="#fd2e76"
-          rightColor="#fd2e76">
+          leftColor="#ef5350"
+          rightColor="#ef5350">
           <div class="clearfix">
             <i class="fa fa-angle-right" />
           </div>

@@ -15,7 +15,7 @@ export default class Card extends Vue {
   @Prop() private title?: string;
 
   get getTitle() {
-    return this.title || 'PokéDex';
+    return this.title || 'Pokédex';
   }
 }
 </script>

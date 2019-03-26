@@ -11,8 +11,8 @@
         subTitle="Valider & Retour"
         :handleClick="mutate"
         faIcon="trash-alt"
-        leftColor="#fd2e76"
-        rightColor="#fd2e76">
+        leftColor="#ef5350"
+        rightColor="#ef5350">
         <div class="clearfix">
           <i class="fa fa-angle-left" />
         </div>
