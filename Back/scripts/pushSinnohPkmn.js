@@ -1024,17 +1024,17 @@ var sinnoh = [
     size: 2.2,
     parents: []
   },
-  /* {
+  {
     nationalId: 478,
     name: 'Momartik',
-    label: '',
+    label: 'Pokémon Enneigement',
     shiny: false,
     types: ['Glace', 'Spectre'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 26.6,
+    size: 1.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 479,
     name: 'Motisma',
     label: '',

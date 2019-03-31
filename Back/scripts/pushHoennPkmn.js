@@ -1227,7 +1227,7 @@ var hoenn = [
     nationalId: 351,
     name: 'Morphéo',
     label: 'Pokémon Climat',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 0.8,
     size: 0.3,
