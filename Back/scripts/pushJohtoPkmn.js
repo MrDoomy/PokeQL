@@ -662,18 +662,23 @@ var johto = [
     types: ['Insecte'],
     weight: 7.2,
     size: 0.6,
-    parents: []
+    parents: [
+      {
+        nationalId: 205,
+        name: 'Foretress'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 205,
     name: 'Foretress',
-    label: '',
+    label: 'Pokémon Ver Caché',
     shiny: false,
     types: ['Insecte', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 125.8,
+    size: 1.2,
     parents: []
-  }, */
+  },
   {
     nationalId: 206,
     name: 'Insolourdo',
