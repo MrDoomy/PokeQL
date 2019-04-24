@@ -1462,7 +1462,7 @@ var hoenn = [
     nationalId: 371,
     name: 'Draby',
     label: 'Pokémon Tête De Roc',
-    shiny: false,
+    shiny: true,
     types: ['Dragon'],
     weight: 42.1,
     size: 0.6,
@@ -1477,22 +1477,27 @@ var hoenn = [
     nationalId: 372,
     name: 'Drackhaus',
     label: 'Pokémon Endurant',
-    shiny: false,
+    shiny: true,
     types: ['Dragon'],
     weight: 110.5,
     size: 1.1,
-    parents: []
+    parents: [
+      {
+        nationalId: 373,
+        name: 'Drattak'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 373,
     name: 'Drattak',
-    label: '',
-    shiny: false,
+    label: 'Pokémon Dragon',
+    shiny: true,
     types: ['Dragon', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 102.6,
+    size: 1.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 374,
     name: 'Terhal',

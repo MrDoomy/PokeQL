@@ -644,16 +644,16 @@ var johto = [
     size: 1.3,
     parents: []
   },
-  /* {
+  {
     nationalId: 203,
     name: 'Girafarig',
-    label: '',
+    label: 'Pokémon Long-Cou',
     shiny: false,
     types: ['Normal', 'Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 41.5,
+    size: 1.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 204,
     name: 'Pomdepik',
@@ -1072,16 +1072,21 @@ var johto = [
       }
     ]
   },
-  /* {
+  {
     nationalId: 239,
     name: 'Elekid',
-    label: '',
+    label: 'Pokémon Electrique',
     shiny: false,
     types: ['Electrik'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  }, */
+    weight: 23.5,
+    size: 0.6,
+    parents: [
+      {
+        nationalId: 125,
+        name: 'Elektek'
+      }
+    ]
+  },
   {
     nationalId: 240,
     name: 'Magby',

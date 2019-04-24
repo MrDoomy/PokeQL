@@ -598,18 +598,23 @@ var sinnoh = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 438,
     name: 'Manzai',
-    label: '',
+    label: 'Pokémon Bonsaï',
     shiny: false,
     types: ['Roche'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 15.0,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 185,
+        name: 'Simularbre'
+      }
+    ]
   },
-  {
+  /* {
     nationalId: 439,
     name: 'Mime Jr.',
     label: '',
