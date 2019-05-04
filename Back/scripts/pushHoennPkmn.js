@@ -702,7 +702,7 @@ var hoenn = [
     nationalId: 307,
     name: 'Méditikka',
     label: 'Pokémon Méditation',
-    shiny: false,
+    shiny: true,
     types: ['Combat', 'Psy'],
     weight: 11.2,
     size: 0.6,
@@ -717,7 +717,7 @@ var hoenn = [
     nationalId: 308,
     name: 'Charmina',
     label: 'Pokémon Méditation',
-    shiny: false,
+    shiny: true,
     types: ['Combat', 'Psy'],
     weight: 31.5,
     size: 1.3,
@@ -1548,17 +1548,17 @@ var hoenn = [
     size: 1.7,
     parents: []
   },
-  /* {
+  {
     nationalId: 378,
     name: 'Regice',
-    label: '',
+    label: 'Pokémon Iceberg',
     shiny: false,
     types: ['Glace'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 175.0,
+    size: 1.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 379,
     name: 'Registeel',
     label: '',
@@ -1577,18 +1577,18 @@ var hoenn = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 381,
     name: 'Latios',
-    label: '',
+    label: 'Pokémon Eon',
     shiny: false,
     types: ['Dragon', 'Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 60.0,
+    size: 2.0,
     parents: []
   },
-  {
+  /* {
     nationalId: 382,
     name: 'Kyogre',
     label: '',

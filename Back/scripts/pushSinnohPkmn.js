@@ -544,16 +544,21 @@ var sinnoh = [
     size: 1.0,
     parents: []
   },
-  /* {
+  {
     nationalId: 433,
     name: 'Korillon',
-    label: '',
+    label: 'Pokémon Clochette',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  }, */
+    weight: 0.6,
+    size: 0.2,
+    parents: [
+      {
+        nationalId: 358,
+        name: 'Eoko'
+      }
+    ]
+  },
   {
     nationalId: 434,
     name: 'Moufouette',
