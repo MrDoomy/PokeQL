@@ -1720,6 +1720,14 @@ var kanto = [
       {
         nationalId: 197,
         name: 'Noctali'
+      },
+      {
+        nationalId: 470,
+        name: 'Phyllali'
+      },
+      {
+        nationalId: 471,
+        name: 'Givrali'
       }
     ]
   },
@@ -1828,16 +1836,16 @@ var kanto = [
     size: 1.8,
     parents: []
   },
-  /* {
+  {
     nationalId: 143,
     name: 'Ronflex',
-    label: '',
+    label: 'Pokémon Pionceur',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.4,
+    weight: 460.0,
+    size: 2.1,
     parents: []
-  }, */
+  },
   {
     nationalId: 144,
     name: 'Artikodin',

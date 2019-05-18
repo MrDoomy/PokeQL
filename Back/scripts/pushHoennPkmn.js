@@ -498,21 +498,25 @@ var hoenn = [
     size: 0.5,
     parents: [
       {
+        nationalId: 291,
+        name: 'Ninjask'
+      },
+      {
         nationalId: 292,
         name: 'Munja'
       }
     ]
   },
-  /* {
+  {
     nationalId: 291,
     name: 'Ninjask',
-    label: '',
+    label: 'Pokémon Ninja',
     shiny: false,
     types: ['Insecte', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 12.0,
+    size: 0.8,
     parents: []
-  }, */
+  },
   {
     nationalId: 292,
     name: 'Munja',
@@ -1567,17 +1571,17 @@ var hoenn = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 380,
     name: 'Latias',
-    label: '',
+    label: 'Pokémon Eon',
     shiny: false,
     types: ['Dragon', 'Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 40.0,
+    size: 1.4,
     parents: []
-  }, */
+  },
   {
     nationalId: 381,
     name: 'Latios',

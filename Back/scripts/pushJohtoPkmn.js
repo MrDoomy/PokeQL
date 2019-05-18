@@ -488,7 +488,7 @@ var johto = [
     nationalId: 190,
     name: 'Capumain',
     label: 'Pokémon Longqueue',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 11.5,
     size: 0.8,

@@ -443,7 +443,7 @@ var sinnoh = [
     nationalId: 424,
     name: 'Capidextre',
     label: 'Pokémon Longqueue',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 20.3,
     size: 1.2,
@@ -702,7 +702,12 @@ var sinnoh = [
     types: ['Normal'],
     weight: 105.0,
     size: 0.6,
-    parents: []
+    parents: [
+      {
+        nationalId: 143,
+        name: 'Ronflex'
+      }
+    ]
   },
   {
     nationalId: 447,
@@ -954,27 +959,27 @@ var sinnoh = [
     size: 1.9,
     parents: []
   },
-  /* {
+  {
     nationalId: 470,
     name: 'Phyllali',
-    label: '',
+    label: 'Pokémon Verdoyant',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 25.5,
+    size: 1.0,
     parents: []
   },
   {
     nationalId: 471,
     name: 'Givrali',
-    label: '',
+    label: 'Pokémon Poudreuse',
     shiny: false,
     types: ['Glace'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 25.9,
+    size: 0.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 472,
     name: 'Scorvol',
     label: '',
