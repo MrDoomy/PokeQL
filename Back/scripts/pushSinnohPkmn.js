@@ -309,17 +309,17 @@ var sinnoh = [
     size: 1.3,
     parents: []
   },
-  /* {
+  {
     nationalId: 412,
     name: 'Cheniti',
-    label: '',
+    label: 'Pokémon Ver Caché',
     shiny: false,
     types: ['Insecte'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 3.4,
+    size: 0.2,
     parents: []
   },
-  {
+  /* {
     nationalId: 413,
     name: 'Cheniselle',
     label: '',
@@ -408,37 +408,42 @@ var sinnoh = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 421,
     name: 'Ceriflor',
-    label: '',
+    label: 'Pokémon Floraisson',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 9.3,
+    size: 0.5,
     parents: []
   },
   {
     nationalId: 422,
     name: 'Sancoki',
-    label: '',
+    label: 'Pokémon Aqualimace',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 6.3,
+    size: 0.3,
+    parents: [
+      {
+        nationalId: 423,
+        name: 'Tritosor'
+      }
+    ]
   },
   {
     nationalId: 423,
     name: 'Tritosor',
-    label: '',
+    label: 'Pokémon Aqualimace',
     shiny: false,
     types: ['Eau', 'Sol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 29.9,
+    size: 0.9,
     parents: []
-  }, */
+  },
   {
     nationalId: 424,
     name: 'Capidextre',
@@ -728,18 +733,18 @@ var sinnoh = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 449,
     name: 'Hippopotas',
-    label: '',
+    label: 'Pokémon Hippo',
     shiny: false,
     types: ['Sol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 49.9,
+    size: 0.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 450,
     name: 'Hippodocus',
     label: '',
