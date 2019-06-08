@@ -1180,18 +1180,23 @@ var johto = [
     types: ['Roche', 'Sol'],
     weight: 152.0,
     size: 1.2,
-    parents: []
+    parents: [
+      {
+        nationalId: 248,
+        name: 'Tyranocif'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 248,
     name: 'Tyranocif',
-    label: '',
+    label: 'Pokémon Armure',
     shiny: false,
     types: ['Roche', 'Tenebres'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 202.0,
+    size: 2.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 249,
     name: 'Lugia',

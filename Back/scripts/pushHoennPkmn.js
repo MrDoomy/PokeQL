@@ -457,7 +457,7 @@ var hoenn = [
     nationalId: 287,
     name: 'Parecool',
     label: 'Pokémon Flâneur',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 24.0,
     size: 0.8,
@@ -472,22 +472,27 @@ var hoenn = [
     nationalId: 288,
     name: 'Vigoroth',
     label: 'Pokémon Turbusinge',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 46.5,
     size: 1.4,
-    parents: []
+    parents: [
+      {
+        nationalId: 289,
+        name: 'Monaflèmit'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 289,
     name: 'Monaflèmit',
-    label: '',
-    shiny: false,
+    label: 'Pokémon Fainéant',
+    shiny: true,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 130.05,
+    size: 2.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 290,
     name: 'Ningale',

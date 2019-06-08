@@ -722,18 +722,23 @@ var sinnoh = [
     types: ['Combat'],
     weight: 20.2,
     size: 0.7,
-    parents: []
+    parents: [
+      {
+        nationalId: 448,
+        name: 'Riolu'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 448,
     name: 'Lucario',
-    label: '',
+    label: 'Pokémon Aura',
     shiny: false,
     types: ['Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 54.0,
+    size: 1.2,
     parents: []
-  }, */
+  },
   {
     nationalId: 449,
     name: 'Hippopotas',
@@ -822,18 +827,23 @@ var sinnoh = [
     types: ['Eau'],
     weight: 7.0,
     size: 0.4,
-    parents: []
+    parents: [
+      {
+        nationalId: 457,
+        name: 'Lumineon'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 457,
     name: 'Lumineon',
-    label: '',
+    label: 'Pokémon Néon',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 24.0,
+    size: 1.2,
     parents: []
-  }, */
+  },
   {
     nationalId: 458,
     name: 'Babimanta',
