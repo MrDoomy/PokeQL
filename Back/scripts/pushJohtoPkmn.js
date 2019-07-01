@@ -1201,7 +1201,7 @@ var johto = [
     nationalId: 249,
     name: 'Lugia',
     label: 'Pokémon Plongeon',
-    shiny: false,
+    shiny: true,
     types: ['Psy', 'Vol'],
     weight: 216.0,
     size: 5.2,

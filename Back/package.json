@@ -11,7 +11,7 @@
     "url": "https://github.com/mrdoomy/pokeql.git"
   },
   "scripts": {
-    "build": "tsc && cp -r public build/",
+    "build": "rimraf build/ && tsc && cp -r public build/",
     "start": "ts-node ./src/main.ts",
     "start:service": "nodemon --exec node_modules/.bin/ts-node -- src/main.ts"
   },
@@ -25,7 +25,8 @@
     "graphql-tools": "^4.0.4",
     "merge-graphql-schemas": "^1.5.8",
     "mongoose": "^5.4.17",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "rimraf": "^2.6.3"
   },
   "devDependencies": {
     "@types/body-parser": "^1.17.0",

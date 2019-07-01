@@ -1581,7 +1581,7 @@ var hoenn = [
     nationalId: 380,
     name: 'Latias',
     label: 'Pokémon Eon',
-    shiny: false,
+    shiny: true,
     types: ['Dragon', 'Psy'],
     weight: 40.0,
     size: 1.4,
@@ -1606,17 +1606,17 @@ var hoenn = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 383,
     name: 'Groudon',
-    label: '',
+    label: 'Pokémon Continent',
     shiny: false,
     types: ['Sol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 950.0,
+    size: 3.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 384,
     name: 'Rayquaza',

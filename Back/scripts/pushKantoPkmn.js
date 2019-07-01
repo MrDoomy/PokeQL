@@ -1651,7 +1651,7 @@ var kanto = [
     nationalId: 129,
     name: 'Magicarpe',
     label: 'Pokémon Poisson',
-    shiny: false,
+    shiny: true,
     types: ['Eau'],
     weight: 10.0,
     size: 0.9,    
