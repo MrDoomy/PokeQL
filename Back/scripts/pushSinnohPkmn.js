@@ -894,17 +894,17 @@ var sinnoh = [
     size: 1.1,
     parents: []
   },
-  /* {
+  {
     nationalId: 462,
-    name: 'Magnezone',
-    label: '',
+    name: 'Magnézone',
+    label: 'Pokémon Aimant',
     shiny: false,
     types: ['Electrik', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 180.0,
+    size: 1.2,
     parents: []
   },
-  {
+  /* {
     nationalId: 463,
     name: 'Coudlangue',
     label: '',
@@ -1033,17 +1033,17 @@ var sinnoh = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 476,
     name: 'Tarinorme',
-    label: '',
+    label: 'Pokémon Boussole',
     shiny: false,
     types: ['Roche', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 340.0,
+    size: 1.4,
     parents: []
-  }, */
+  },
   {
     nationalId: 477,
     name: 'Noctunoir',

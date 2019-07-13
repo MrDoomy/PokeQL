@@ -1075,7 +1075,12 @@ var kanto = [
     types: ['Electrik', 'Acier'],
     weight: 60.0,
     size: 1.0,
-    parents: []
+    parents: [
+      {
+        nationalId: 462,
+        name: 'Magnézone'
+      }
+    ]
   },
   /* {
     nationalId: 83,
@@ -1735,7 +1740,7 @@ var kanto = [
     nationalId: 134,
     name: 'Aquali',
     label: 'Pokémon Bulleur',
-    shiny: false,
+    shiny: true,
     types: ['Eau'],
     weight: 29.0,
     size: 1.0,

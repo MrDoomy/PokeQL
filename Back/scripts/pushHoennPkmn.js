@@ -576,7 +576,7 @@ var hoenn = [
     nationalId: 296,
     name: 'Makuhita',
     label: 'Pokémon Tenace',
-    shiny: false,
+    shiny: true,
     types: ['Combat'],
     weight: 86.4,
     size: 1.0,
@@ -591,7 +591,7 @@ var hoenn = [
     nationalId: 297,
     name: 'Hariyama',
     label: 'Pokémon Cogneur',
-    shiny: false,
+    shiny: true,
     types: ['Combat'],
     weight: 253.8,
     size: 2.3,
@@ -620,7 +620,12 @@ var hoenn = [
     types: ['Roche'],
     weight: 97.0,
     size: 1.0,
-    parents: []
+    parents: [
+      {
+        nationalId: 476,
+        name: 'Tarinorme'
+      }
+    ]
   },
   {
     nationalId: 300,
@@ -1597,16 +1602,16 @@ var hoenn = [
     size: 2.0,
     parents: []
   },
-  /* {
+  {
     nationalId: 382,
     name: 'Kyogre',
-    label: '',
+    label: 'Pokémon Bassin Marin',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 352.0,
+    size: 4.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 383,
     name: 'Groudon',
