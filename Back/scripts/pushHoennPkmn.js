@@ -372,7 +372,7 @@ var hoenn = [
     nationalId: 280,
     name: 'Tarsal',
     label: 'Pokémon Sentiment',
-    shiny: false,
+    shiny: true,
     types: ['Psy', 'Fee'],
     weight: 6.6,
     size: 0.4,
@@ -387,22 +387,31 @@ var hoenn = [
     nationalId: 281,
     name: 'Kirlia',
     label: 'Pokémon Emotion',
-    shiny: false,
+    shiny: true,
     types: ['Psy', 'Fee'],
     weight: 20.2,
     size: 0.8,
-    parents: []
+    parents: [
+      {
+        nationalId: 282,
+        name: 'Gardevoir'
+      },
+      {
+        nationalId: 475,
+        name: 'Gallame'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 282,
     name: 'Gardevoir',
-    label: '',
-    shiny: false,
+    label: 'Pokémon Etreinte',
+    shiny: true,
     types: ['Psy', 'Fee'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 48.4,
+    size: 1.6,
     parents: []
-  }, */
+  },
   {
     nationalId: 283,
     name: 'Arakdo',
@@ -1430,7 +1439,12 @@ var hoenn = [
     types: ['Eau'],
     weight: 52.5,
     size: 0.4,
-    parents: []
+    parents: [
+      {
+        nationalId: 368,
+        name: 'Rosabyss'
+      }
+    ]
   },
   /* {
     nationalId: 367,
@@ -1441,18 +1455,18 @@ var hoenn = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 368,
     name: 'Rosabyss',
-    label: '',
+    label: 'Pokémon Mer Du Sud',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 22.6,
+    size: 1.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 369,
     name: 'Relicanth',
     label: '',

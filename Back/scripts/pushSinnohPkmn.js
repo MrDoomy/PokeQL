@@ -597,18 +597,23 @@ var sinnoh = [
     types: ['Acier', 'Psy'],
     weight: 60.5,
     size: 0.5,
-    parents: []
+    parents: [
+      {
+        nationalId: 437,
+        name: 'Archéodong'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 437,
     name: 'Archéodong',
-    label: '',
+    label: 'Pokémon Chochebronze',
     shiny: false,
     types: ['Acier', 'Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 187.0,
+    size: 1.3,
     parents: []
-  }, */
+  },
   {
     nationalId: 438,
     name: 'Manzai',
@@ -747,18 +752,23 @@ var sinnoh = [
     types: ['Sol'],
     weight: 49.9,
     size: 0.8,
-    parents: []
+    parents: [
+      {
+        nationalId: 450,
+        name: 'Hippodocus'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 450,
     name: 'Hippodocus',
-    label: '',
+    label: 'Pokémon Poids Lourd',
     shiny: false,
     types: ['Sol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 300.0,
+    size: 2.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 451,
     name: 'Rapion',
@@ -1023,17 +1033,17 @@ var sinnoh = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 475,
     name: 'Gallame',
-    label: '',
+    label: 'Pokémon Lame',
     shiny: false,
     types: ['Psy', 'Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 52.0,
+    size: 1.6,
     parents: []
-  }, */
+  },
   {
     nationalId: 476,
     name: 'Tarinorme',
