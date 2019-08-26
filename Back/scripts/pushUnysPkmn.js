@@ -1,0 +1,1576 @@
+var unys = [
+  /*
+  {
+    nationalId: 494,
+    name: 'Victini',
+    label: '',
+    shiny: false,
+    types: ['Psy', 'Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 495,
+    name: 'Vipelierre',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 496,
+    name: 'Lianaja',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 497,
+    name: 'Majaspic',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 498,
+    name: 'Gruikui',
+    label: '',
+    shiny: false,
+    types: ['Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 499,
+    name: 'Grotichon',
+    label: '',
+    shiny: false,
+    types: ['Feu', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 500,
+    name: 'Roitiflam',
+    label: '',
+    shiny: false,
+    types: ['Feu', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 501,
+    name: 'Moustillon',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 502,
+    name: 'Mateloutre',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 503,
+    name: 'Clamiral',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 504,
+    name: 'Ratentif',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 505,
+    name: 'Miradar',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 506,
+    name: 'Ponchiot',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 507,
+    name: 'Ponchien',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 508,
+    name: 'Mastouffe',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 509,
+    name: 'Chacripan',
+    label: '',
+    shiny: false,
+    types: ['Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 510,
+    name: 'Leopardus',
+    label: '',
+    shiny: false,
+    types: ['Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 511,
+    name: 'Feuillajou',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 512,
+    name: 'Feuiloutan',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 513,
+    name: 'Flamajou',
+    label: '',
+    shiny: false,
+    types: ['Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 514,
+    name: 'Flamoutan',
+    label: '',
+    shiny: false,
+    types: ['Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 515,
+    name: 'Flotajou',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 516,
+    name: 'Flotoutan',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 517,
+    name: 'Munna',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 518,
+    name: 'Mushana',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 519,
+    name: 'Poichigeon',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 520,
+    name: 'Colombeau',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 521,
+    name: 'Deflaisan',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 522,
+    name: 'Zebibron',
+    label: '',
+    shiny: false,
+    types: ['Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 523,
+    name: 'Zeblitz',
+    label: '',
+    shiny: false,
+    types: ['Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 524,
+    name: 'Nodulithe',
+    label: '',
+    shiny: false,
+    types: ['Roche'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 525,
+    name: 'Geolithe',
+    label: '',
+    shiny: false,
+    types: ['Roche'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 526,
+    name: 'Gigalithe',
+    label: '',
+    shiny: false,
+    types: ['Roche'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 527,
+    name: 'Chovsourir',
+    label: '',
+    shiny: false,
+    types: ['Psy', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 528,
+    name: 'Rhinolove',
+    label: '',
+    shiny: false,
+    types: ['Psy', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 529,
+    name: 'Rototaupe',
+    label: '',
+    shiny: false,
+    types: ['Sol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 530,
+    name: 'Minotaupe',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 531,
+    name: 'Nanmeouie',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 532,
+    name: 'Charpenti',
+    label: '',
+    shiny: false,
+    types: ['Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 533,
+    name: 'Ouvrifier',
+    label: '',
+    shiny: false,
+    types: ['Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 534,
+    name: 'Betochef',
+    label: '',
+    shiny: false,
+    types: ['Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 535,
+    name: 'Tritonde',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 536,
+    name: 'Batracne',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Sol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 537,
+    name: 'Crapustule',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Sol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 538,
+    name: 'Judokrak',
+    label: '',
+    shiny: false,
+    types: ['Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 539,
+    name: 'Karaclee',
+    label: '',
+    shiny: false,
+    types: ['Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 540,
+    name: 'Larveyette',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 541,
+    name: 'Couverdure',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 542,
+    name: 'Manternel',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 543,
+    name: 'Venipatte',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Poison'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 544,
+    name: 'Scobolide',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Poison'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 545,
+    name: 'Brutapode',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Poison'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 546,
+    name: 'Doudouvet',
+    label: '',
+    shiny: false,
+    types: ['Plante', 'Fee'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 547,
+    name: 'Farfaduvet',
+    label: '',
+    shiny: false,
+    types: ['Plante', 'Fee'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 548,
+    name: 'Chlorobule',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 549,
+    name: 'Fragilady',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 550,
+    name: 'Bargantua',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 551,
+    name: 'Mascaiman',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 552,
+    name: 'Escroco',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 553,
+    name: 'Crocorible',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 554,
+    name: 'Darumarond',
+    label: '',
+    shiny: false,
+    types: ['Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 555,
+    name: 'Darumacho',
+    label: '',
+    shiny: false,
+    types: ['Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 556,
+    name: 'Maracachi',
+    label: '',
+    shiny: false,
+    types: ['Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 557,
+    name: 'Crabicoque',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Roche'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 558,
+    name: 'Crabaraque',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Roche'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 559,
+    name: 'Baggiguane',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 560,
+    name: 'Baggaid',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 561,
+    name: 'Cryptero',
+    label: '',
+    shiny: false,
+    types: ['Psy', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 562,
+    name: 'Tutafeh',
+    label: '',
+    shiny: false,
+    types: ['Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 563,
+    name: 'Tutankafer',
+    label: '',
+    shiny: false,
+    types: ['Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 564,
+    name: 'Carapagos',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Roche'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 565,
+    name: 'Megapagos',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Roche'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 566,
+    name: 'Arkeapti',
+    label: '',
+    shiny: false,
+    types: ['Roche', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 567,
+    name: 'Aeroptezyx',
+    label: '',
+    shiny: false,
+    types: ['Roche', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 568,
+    name: 'Miamiasme',
+    label: '',
+    shiny: false,
+    types: ['Poison'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 569,
+    name: 'Miasmax',
+    label: '',
+    shiny: false,
+    types: ['Poison'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 570,
+    name: 'Zorua',
+    label: '',
+    shiny: false,
+    types: ['Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 571,
+    name: 'Zoroark',
+    label: '',
+    shiny: false,
+    types: ['Tenebres'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 572,
+    name: 'Chinchidou',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 573,
+    name: 'Pashmilla',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 574,
+    name: 'Scrutella',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 575,
+    name: 'Mesmerella',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 576,
+    name: 'Siderella',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 577,
+    name: 'Nucleos',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 578,
+    name: 'Meios',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 579,
+    name: 'Symbios',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 580,
+    name: 'Couaneton',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 581,
+    name: 'Lakmecygne',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 582,
+    name: 'Sorbebe',
+    label: '',
+    shiny: false,
+    types: ['Glace'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 583,
+    name: 'Sorboul',
+    label: '',
+    shiny: false,
+    types: ['Glace'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 584,
+    name: 'Sorbouboul',
+    label: '',
+    shiny: false,
+    types: ['Glace'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 585,
+    name: 'Vivaldaim',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 586,
+    name: 'Haydaim',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Plante'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 587,
+    name: 'Emolga',
+    label: '',
+    shiny: false,
+    types: ['Electrik', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 588,
+    name: 'Carabing',
+    label: '',
+    shiny: false,
+    types: ['Insecte'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 589,
+    name: 'Lancargot',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 590,
+    name: 'Trompignon',
+    label: '',
+    shiny: false,
+    types: ['Plante', 'Poison'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 591,
+    name: 'Gaulet',
+    label: '',
+    shiny: false,
+    types: ['Plante', 'Poison'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 592,
+    name: 'Viskuse',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Spectre'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 593,
+    name: 'Moyade',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Spectre'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 594,
+    name: 'Mamanbo',
+    label: '',
+    shiny: false,
+    types: ['Eau'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 595,
+    name: 'Statitik',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 596,
+    name: 'Mygavolt',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 597,
+    name: 'Grindur',
+    label: '',
+    shiny: false,
+    types: ['Plante', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 598,
+    name: 'Noacier',
+    label: '',
+    shiny: false,
+    types: ['Plante', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 599,
+    name: 'Tic',
+    label: '',
+    shiny: false,
+    types: ['Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 600,
+    name: 'Clic',
+    label: '',
+    shiny: false,
+    types: ['Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 601,
+    name: 'Cliticlic',
+    label: '',
+    shiny: false,
+    types: ['Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 602,
+    name: 'Anchwatt',
+    label: '',
+    shiny: false,
+    types: ['Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 603,
+    name: 'Lamperoie',
+    label: '',
+    shiny: false,
+    types: ['Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 604,
+    name: 'Ohmassacre',
+    label: '',
+    shiny: false,
+    types: ['Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 605,
+    name: 'Lewsor',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 606,
+    name: 'Neitram',
+    label: '',
+    shiny: false,
+    types: ['Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 607,
+    name: 'Funecire',
+    label: '',
+    shiny: false,
+    types: ['Spectre', 'Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 608,
+    name: 'Melancolux',
+    label: '',
+    shiny: false,
+    types: ['Spectre', 'Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 609,
+    name: 'Lugulabre',
+    label: '',
+    shiny: false,
+    types: ['Spectre', 'Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 610,
+    name: 'Coupenotte',
+    label: '',
+    shiny: false,
+    types: ['Dragon'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 611,
+    name: 'Incisache',
+    label: '',
+    shiny: false,
+    types: ['Dragon'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 612,
+    name: 'Tranchodon',
+    label: '',
+    shiny: false,
+    types: ['Dragon'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 613,
+    name: 'Polarhume',
+    label: '',
+    shiny: false,
+    types: ['Glace'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 614,
+    name: 'Polagriffe',
+    label: '',
+    shiny: false,
+    types: ['Glace'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 615,
+    name: 'Hexagel',
+    label: '',
+    shiny: false,
+    types: ['Glace'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 616,
+    name: 'Escargaume',
+    label: '',
+    shiny: false,
+    types: ['Insecte'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 617,
+    name: 'Limaspeed',
+    label: '',
+    shiny: false,
+    types: ['Insecte'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 618,
+    name: 'Limonde',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 619,
+    name: 'Kungfouine',
+    label: '',
+    shiny: false,
+    types: ['Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 620,
+    name: 'Shaofouine',
+    label: '',
+    shiny: false,
+    types: ['Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 621,
+    name: 'Drakkarmin',
+    label: '',
+    shiny: false,
+    types: ['Dragon'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 622,
+    name: 'Gringolem',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Spectre'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 623,
+    name: 'Golemastoc',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Spectre'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 624,
+    name: 'Scalpion',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 625,
+    name: 'Scalproie',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 626,
+    name: 'Frison',
+    label: '',
+    shiny: false,
+    types: ['Normal'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 627,
+    name: 'Furaiglon',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 628,
+    name: 'Gueriaigle',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 629,
+    name: 'Vostourno',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 630,
+    name: 'Vaututrice',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 631,
+    name: 'Aflamanoir',
+    label: '',
+    shiny: false,
+    types: ['Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 632,
+    name: 'Fermite',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 633,
+    name: 'Solochi',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Dragon'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 634,
+    name: 'Diamat',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Dragon'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 635,
+    name: 'Trioxhydre',
+    label: '',
+    shiny: false,
+    types: ['Tenebres', 'Dragon'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 636,
+    name: 'Pyronille',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 637,
+    name: 'Pyrax',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 638,
+    name: 'Cobaltium',
+    label: '',
+    shiny: false,
+    types: ['Acier', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 639,
+    name: 'Terrakium',
+    label: '',
+    shiny: false,
+    types: ['Roche', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 640,
+    name: 'Viridium',
+    label: '',
+    shiny: false,
+    types: ['Plante', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 641,
+    name: 'Boreas',
+    label: '',
+    shiny: false,
+    types: ['Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 642,
+    name: 'Fulguris',
+    label: '',
+    shiny: false,
+    types: ['Electrik', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 643,
+    name: 'Reshiram',
+    label: '',
+    shiny: false,
+    types: ['Dragon', 'Feu'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 644,
+    name: 'Zekrom',
+    label: '',
+    shiny: false,
+    types: ['Dragon', 'Electrik'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 645,
+    name: 'Demeteros',
+    label: '',
+    shiny: false,
+    types: ['Sol', 'Vol'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 646,
+    name: 'Kyurem',
+    label: '',
+    shiny: false,
+    types: ['Dragon', 'Glace'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 647,
+    name: 'Keldeo',
+    label: '',
+    shiny: false,
+    types: ['Eau', 'Combat'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 648,
+    name: 'Meloetta',
+    label: '',
+    shiny: false,
+    types: ['Normal', 'Psy'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  },
+  {
+    nationalId: 649,
+    name: 'Genesect',
+    label: '',
+    shiny: false,
+    types: ['Insecte', 'Acier'],
+    weight: 0.0,
+    size: 0.0,
+    parents: []
+  }
+  */
+];
+
+unys.forEach(function(pkmn) {
+  pkmn.region = 'Unys';
+
+  try {
+    db.pokemon.save(pkmn);
+  } catch(e) {
+    // console.log(e);
+  }
+});
+
+module.exports = unys;

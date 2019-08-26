@@ -123,7 +123,7 @@ var hoenn = [
     nationalId: 261,
     name: 'Medhyèna',
     label: 'Pokémon Morsure',
-    shiny: false,
+    shiny: true,
     types: ['Tenebres'],
     weight: 13.6,
     size: 0.5,
@@ -138,7 +138,7 @@ var hoenn = [
     nationalId: 262,
     name: 'Grahyèna',
     label: 'Pokémon Morsure',
-    shiny: false,
+    shiny: true,
     types: ['Tenebres'],
     weight: 37.0,
     size: 1.0,
@@ -884,18 +884,23 @@ var hoenn = [
     types: ['Eau'],
     weight: 130.0,
     size: 2.0,
-    parents: []
+    parents: [
+      {
+        nationalId: 321,
+        name: 'Wailord'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 321,
     name: 'Wailord',
-    label: '',
+    label: 'Pokémon Cachabouée',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 398.0,
+    size: 14.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 322,
     name: 'Chamallot',
@@ -1100,7 +1105,7 @@ var hoenn = [
     nationalId: 339,
     name: 'Barloche',
     label: 'Pokémon Barbillon',
-    shiny: false,
+    shiny: true,
     types: ['Eau', 'Sol'],
     weight: 1.9,
     size: 0.4,
@@ -1115,7 +1120,7 @@ var hoenn = [
     nationalId: 340,
     name: 'Barbicha',
     label: 'Pokémon Barbillon',
-    shiny: false,
+    shiny: true,
     types: ['Eau', 'Sol'],
     weight: 23.6,
     size: 0.9,
