@@ -6,6 +6,7 @@ import pkmnFromKanto from '../../scripts/pushKantoPkmn';
 import pkmnFromJohto from '../../scripts/pushJohtoPkmn';
 import pkmnFromHoenn from '../../scripts/pushHoennPkmn';
 import pkmnFromSinnoh from '../../scripts/pushSinnohPkmn';
+// import pkmnFromUnys from '../../scripts/pushUnysPkmn';
 
 const createPkmn = (pkmn: Pokemon) => {
   const { nationalId, name, label, region, shiny, types, weight, size, parents } = pkmn;
@@ -60,4 +61,5 @@ export const initDataBase = () => {
   pkmnFromJohto.forEach((pkmn: any) => readPkmn(pkmn));
   pkmnFromHoenn.forEach((pkmn: any) => readPkmn(pkmn));
   pkmnFromSinnoh.forEach((pkmn: any) => readPkmn(pkmn));
+  // pkmnFromUnys.forEach((pkmn: any) => readPkmn(pkmn));
 };

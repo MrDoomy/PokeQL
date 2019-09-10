@@ -232,18 +232,23 @@ var sinnoh = [
     types: ['Electrik'],
     weight: 30.5,
     size: 0.9,
-    parents: []
+    parents: [
+      {
+        nationalId: 405,
+        name: 'Luxray'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 405,
     name: 'Luxray',
-    label: '',
+    label: 'Pokémon Brilloeil',
     shiny: false,
     types: ['Electrik'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 42.0,
+    size: 1.4,
     parents: []
-  }, */
+  },
   {
     nationalId: 406,
     name: 'Rozbouton',
@@ -277,18 +282,23 @@ var sinnoh = [
     types: ['Roche'],
     weight: 31.5,
     size: 0.9,
-    parents: []
+    parents: [
+      {
+        nationalId: 409,
+        name: 'Charkos'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 409,
     name: 'Charkos',
-    label: '',
+    label: 'Pokémon Coud\'Boule',
     shiny: false,
     types: ['Roche'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 102.5,
+    size: 1.6,
     parents: []
-  }, */
+  },
   {
     nationalId: 410,
     name: 'Dinoclier',
@@ -914,16 +924,16 @@ var sinnoh = [
     size: 1.2,
     parents: []
   },
-  /* {
+  {
     nationalId: 463,
     name: 'Coudlangue',
-    label: '',
+    label: 'Pokémon Lécheur',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 140.0,
+    size: 1.7,
     parents: []
-  }, */
+  },
   {
     nationalId: 464,
     name: 'Rhinastoc',
@@ -1004,16 +1014,16 @@ var sinnoh = [
     size: 0.8,
     parents: []
   },
-  /* {
+  {
     nationalId: 472,
     name: 'Scorvol',
-    label: '',
+    label: 'Pokémon Scorpicroc',
     shiny: false,
     types: ['Sol', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 42.5,
+    size: 2.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 473,
     name: 'Mammochon',

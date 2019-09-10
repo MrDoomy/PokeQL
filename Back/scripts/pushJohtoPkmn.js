@@ -624,16 +624,16 @@ var johto = [
       }
     ]
   },
-  /* {
+  {
     nationalId: 201,
     name: 'Zarbi',
-    label: '',
+    label: 'Pokémon Symbolique',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 5.0,
+    size: 0.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 202,
     name: 'Qulbutoké',
@@ -697,7 +697,12 @@ var johto = [
     types: ['Sol', 'Vol'],
     weight: 64.8,
     size: 1.1,
-    parents: []
+    parents: [
+      {
+        nationalId: 472,
+        name: 'Scorvol'
+      }
+    ]
   },
   {
     nationalId: 208,

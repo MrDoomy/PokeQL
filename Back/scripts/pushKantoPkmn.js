@@ -1082,16 +1082,16 @@ var kanto = [
       }
     ]
   },
-  /* {
+  {
     nationalId: 83,
     name: 'Canarticho',
-    label: '',
+    label: 'Pokémon Canard Fou',
     shiny: false,
     types: ['Normal', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 15.0,
+    size: 0.8,
     parents: []
-  }, */
+  },
   {
     nationalId: 84,
     name: 'Doduo',
@@ -1400,7 +1400,12 @@ var kanto = [
     types: ['Normal'],
     weight: 65.5,
     size: 1.2,
-    parents: []
+    parents: [
+      {
+        nationalId: 463,
+        name: 'Coudlangue'
+      }
+    ]
   },
   {
     nationalId: 109,
