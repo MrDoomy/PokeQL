@@ -1,3 +1,6 @@
+// FIX: Chalk Import
+const chalk = require('chalk');
+
 import path from 'path';
 import express from 'express';
 import expressGraphQl from 'express-graphql';
@@ -6,6 +9,7 @@ import cors from 'cors';
 import { json } from 'body-parser';
 import typeDefs from './types';
 import resolvers from './resolvers';
+import { asciiArt } from './constants';
 
 const resolvePath = (pathName: string) => path.resolve(__dirname, '..', pathName);
 
@@ -16,6 +20,7 @@ const resolvePath = (pathName: string) => path.resolve(__dirname, '..', pathName
  */
 export default class App {
   public express: express.Application;
+  private port: string | number;
 
   /**
    * Constructor
@@ -23,9 +28,10 @@ export default class App {
    * @class App
    * @constructor
    */
-  constructor() {
+  constructor(port: string | number) {
     this.express = express();
     this.applyMiddleware();
+    this.port = port;
   }
 
   /**
@@ -68,5 +74,22 @@ export default class App {
         })
       })
     );
+  }
+
+  /**
+   * Launch Server
+   *
+   * @class App
+   * @method launchServer
+   */
+  public launchServer(color = 'white') {
+    const log = (text: string) => console.log(text);
+    const setChalk = (color: string) => (text: string) => log(chalk[color](text));
+    const coloredLog = setChalk(color);
+
+    this.express.listen(this.port, () => {
+      coloredLog(asciiArt);
+      log(`Listenin' On http://localhost:${this.port}`);
+    });
   }
 }
