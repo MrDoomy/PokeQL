@@ -99,78 +99,98 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 504,
     name: 'Ratentif',
-    label: '',
+    label: 'Pokémon Espion',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 11.6,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 505,
+        name: 'Miradar'
+      }
+    ]
   },
   {
     nationalId: 505,
     name: 'Miradar',
-    label: '',
+    label: 'Pokémon Vigilant',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 27.0,
+    size: 1.1,
     parents: []
   },
   {
     nationalId: 506,
     name: 'Ponchiot',
-    label: '',
+    label: 'Pokémon Chiot',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 4.1,
+    size: 0.4,
+    parents: [
+      {
+        nationalId: 507,
+        name: 'Ponchien'
+      }
+    ]
   },
   {
     nationalId: 507,
     name: 'Ponchien',
-    label: '',
+    label: 'Pokémon Chien Fidèle',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 14.7,
+    size: 0.9,
+    parents: [
+      {
+        nationalId: 508,
+        name: 'Mastouffe'
+      }
+    ]
   },
   {
     nationalId: 508,
     name: 'Mastouffe',
-    label: '',
+    label: 'Pokémon Magnanime',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 61.0,
+    size: 1.2,
     parents: []
   },
   {
     nationalId: 509,
     name: 'Chacripan',
-    label: '',
+    label: 'Pokémon Scélérat',
     shiny: false,
     types: ['Tenebres'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 10.1,
+    size: 0.4,
+    parents: [
+      {
+        nationalId: 510,
+        name: 'Léopardus'
+      }
+    ]
   },
   {
     nationalId: 510,
-    name: 'Leopardus',
-    label: '',
+    name: 'Léopardus',
+    label: 'Pokémon Implacable',
     shiny: false,
     types: ['Tenebres'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 37.5,
+    size: 1.1,
     parents: []
   },
-  {
+  /* {
     nationalId: 511,
     name: 'Feuillajou',
     label: '',
@@ -189,18 +209,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 513,
     name: 'Flamajou',
-    label: '',
+    label: 'Pokémon Brûlant',
     shiny: false,
     types: ['Feu'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 11.0,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 514,
     name: 'Flamoutan',
     label: '',
@@ -249,28 +269,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 519,
     name: 'Poichigeon',
-    label: '',
+    label: 'Pokémon Tipigeon',
     shiny: false,
     types: ['Normal', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 2.1,
+    size: 0.3,
+    parents: [
+      {
+        nationalId: 520,
+        name: 'Colombeau'
+      }
+    ]
   },
   {
     nationalId: 520,
     name: 'Colombeau',
-    label: '',
+    label: 'Pokémon Sauvapigeon',
     shiny: false,
     types: ['Normal', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 15.0,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 521,
     name: 'Deflaisan',
     label: '',
@@ -349,18 +374,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 529,
     name: 'Rototaupe',
-    label: '',
+    label: 'Pokémon Taupe',
     shiny: false,
     types: ['Sol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 8.5,
+    size: 0.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 530,
     name: 'Minotaupe',
     label: '',

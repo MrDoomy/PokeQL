@@ -1230,7 +1230,7 @@ var hoenn = [
     nationalId: 349,
     name: 'Barpau',
     label: 'Pokémon Poisson',
-    shiny: false,
+    shiny: true,
     types: ['Eau'],
     weight: 7.4,
     size: 0.6,
@@ -1245,7 +1245,7 @@ var hoenn = [
     nationalId: 350,
     name: 'Milobellus',
     label: 'Pokémon Tendre',
-    shiny: false,
+    shiny: true,
     types: ['Eau'],
     weight: 162.0,
     size: 6.2,
@@ -1346,16 +1346,16 @@ var hoenn = [
     size: 0.6,
     parents: []
   },
-  /* {
+  {
     nationalId: 359,
     name: 'Absol',
-    label: '',
+    label: 'Pokémon Désastre',
     shiny: false,
     types: ['Tenebres'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 47.0,
+    size: 1.2,
     parents: []
-  }, */
+  },
   {
     nationalId: 360,
     name: 'Okéoké',
@@ -1446,21 +1446,25 @@ var hoenn = [
     size: 0.4,
     parents: [
       {
+        nationalId: 367,
+        name: 'Serpang'
+      },
+      {
         nationalId: 368,
         name: 'Rosabyss'
       }
     ]
   },
-  /* {
+  {
     nationalId: 367,
     name: 'Serpang',
-    label: '',
+    label: 'Pokémon Abysse',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 27.0,
+    size: 1.7,
     parents: []
-  }, */
+  },
   {
     nationalId: 368,
     name: 'Rosabyss',
@@ -1651,16 +1655,16 @@ var hoenn = [
     size: 7.0,
     parents: []
   },
-  /* {
+  {
     nationalId: 385,
     name: 'Jirachi',
-    label: '',
+    label: 'Pokémon Souhait',
     shiny: false,
     types: ['Acier', 'Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 1.1,
+    size: 0.3,
     parents: []
-  }, */
+  },
   {
     nationalId: 386,
     name: 'Deoxys',

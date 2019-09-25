@@ -1034,16 +1034,16 @@ var sinnoh = [
     size: 2.5,
     parents: []
   },
-  /* {
+  {
     nationalId: 474,
     name: 'Porygon-Z',
-    label: '',
+    label: 'Pokémon Virtuel',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 34.0,
+    size: 0.9,
     parents: []
-  }, */
+  },
   {
     nationalId: 475,
     name: 'Gallame',

@@ -1007,7 +1007,12 @@ var johto = [
     types: ['Normal'],
     weight: 32.5,
     size: 0.6,
-    parents: []
+    parents: [
+      {
+        nationalId: 474,
+        name: 'Porygon-Z'
+      }
+    ]
   },
   {
     nationalId: 234,

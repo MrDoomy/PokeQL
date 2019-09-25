@@ -1482,16 +1482,16 @@ var kanto = [
     size: 1.0,
     parents: []
   },
-  /* {
+  {
     nationalId: 115,
     name: 'Kangourex',
-    label: '',
+    label: 'Pokémon Maternel',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 80.0,
+    size: 2.2,
     parents: []
-  }, */
+  },
   {
     nationalId: 116,
     name: 'Hypotrempe',
@@ -1647,16 +1647,16 @@ var kanto = [
     size: 1.5,
     parents: []
   },
-  /* {
+  {
     nationalId: 128,
     name: 'Tauros',
-    label: '',
+    label: 'Pokémon Buffle',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 88.4,
+    size: 1.4,
     parents: []
-  }, */
+  },
   {
     nationalId: 129,
     name: 'Magicarpe',
