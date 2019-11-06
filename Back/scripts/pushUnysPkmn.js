@@ -39,18 +39,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 498,
     name: 'Gruikui',
-    label: '',
+    label: 'Pokémon Cochon Feu',
     shiny: false,
     types: ['Feu'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 9.9,
+    size: 0.5,
     parents: []
   },
-  {
+  /* {
     nationalId: 499,
     name: 'Grotichon',
     label: '',
@@ -104,7 +104,7 @@ var unys = [
     nationalId: 504,
     name: 'Ratentif',
     label: 'Pokémon Espion',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 11.6,
     size: 0.5,
@@ -119,7 +119,7 @@ var unys = [
     nationalId: 505,
     name: 'Miradar',
     label: 'Pokémon Vigilant',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 27.0,
     size: 1.1,
@@ -293,19 +293,24 @@ var unys = [
     types: ['Normal', 'Vol'],
     weight: 15.0,
     size: 0.6,
+    parents: [
+      {
+        nationalId: 521,
+        name: 'Colombeau'
+      }
+    ]
+  },
+  {
+    nationalId: 521,
+    name: 'Deflaisan',
+    label: 'Pokémon Fier',
+    shiny: false,
+    types: ['Normal', 'Vol'],
+    weight: 29.0,
+    size: 1.2,
     parents: []
   },
   /* {
-    nationalId: 521,
-    name: 'Deflaisan',
-    label: '',
-    shiny: false,
-    types: ['Normal', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 522,
     name: 'Zebibron',
     label: '',
@@ -704,28 +709,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 562,
     name: 'Tutafeh',
-    label: '',
+    label: 'Pokémon Âme',
     shiny: false,
     types: ['Tenebres'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 1.5,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 563,
+        name: 'Tutankafer'
+      }
+    ]
   },
   {
     nationalId: 563,
     name: 'Tutankafer',
-    label: '',
+    label: 'Pokémon Cercueil',
     shiny: false,
     types: ['Tenebres'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 76.5,
+    size: 1.7,
     parents: []
   },
-  {
+  /* {
     nationalId: 564,
     name: 'Carapagos',
     label: '',
@@ -984,18 +994,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 590,
     name: 'Trompignon',
-    label: '',
+    label: 'Pokémon Champignon',
     shiny: false,
     types: ['Plante', 'Poison'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 1.0,
+    size: 0.2,
     parents: []
   },
-  {
+  /* {
     nationalId: 591,
     name: 'Gaulet',
     label: '',
@@ -1154,28 +1164,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 607,
-    name: 'Funecire',
-    label: '',
+    name: 'Funécire',
+    label: 'Pokémon Chandelle',
     shiny: false,
     types: ['Spectre', 'Feu'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 3.1,
+    size: 0.3,
+    parents: [
+      {
+        nationalId: 608,
+        name: 'Melancolux'
+      }
+    ]
   },
   {
     nationalId: 608,
     name: 'Melancolux',
-    label: '',
+    label: 'Pokémon Lampe',
     shiny: false,
     types: ['Spectre', 'Feu'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 13.0,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 609,
     name: 'Lugulabre',
     label: '',
@@ -1304,18 +1319,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 622,
     name: 'Gringolem',
-    label: '',
+    label: 'Pokémon Golem Ancien',
     shiny: false,
     types: ['Sol', 'Spectre'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 92.0,
+    size: 1.0,
     parents: []
   },
-  {
+  /* {
     nationalId: 623,
     name: 'Golemastoc',
     label: '',

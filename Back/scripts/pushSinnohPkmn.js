@@ -327,19 +327,24 @@ var sinnoh = [
     types: ['Insecte'],
     weight: 3.4,
     size: 0.2,
+    parents: [
+      {
+        nationalId: 413,
+        name: 'Cheniselle'
+      }
+    ]
+  },
+  {
+    nationalId: 413,
+    name: 'Cheniselle',
+    label: 'Pokémon Ver Caché',
+    shiny: false,
+    types: ['Insecte', 'Plante'],
+    weight: 6.5,
+    size: 0.5,
     parents: []
   },
   /* {
-    nationalId: 413,
-    name: 'Cheniselle',
-    label: '',
-    shiny: false,
-    types: ['Insecte', 'Plante'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 414,
     name: 'Papilord',
     label: '',
