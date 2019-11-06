@@ -11,9 +11,9 @@ const port: string | number = process.env.PORT || 5050;
 const app = new App(port);
 
 const config = {
-  host: 'localhost' as string,
-  port: 27017 as number,
-  db: 'pokedex' as string
+  host: 'localhost',
+  port: 27017,
+  db: 'pokedex'
 };
 
 const uri: string = `mongodb://${config.host}:${config.port}/${config.db}`;
@@ -21,7 +21,8 @@ const uri: string = `mongodb://${config.host}:${config.port}/${config.db}`;
 // Instance Of Mongoose
 connect(uri, {
   useCreateIndex: true,
-  useNewUrlParser: true
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 })
 .then(() => {
   app.launchServer('blue');
