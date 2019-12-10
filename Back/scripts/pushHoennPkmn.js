@@ -665,7 +665,7 @@ var hoenn = [
     nationalId: 302,
     name: 'Ténéfix',
     label: 'Pokémon Obscurité',
-    shiny: false,
+    shiny: true,
     types: ['Tenebres', 'Spectre'],
     weight: 11.0,
     size: 0.5,

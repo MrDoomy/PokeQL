@@ -48,19 +48,24 @@ var unys = [
     types: ['Feu'],
     weight: 9.9,
     size: 0.5,
+    parents: [
+      {
+        nationalId: 499,
+        name: 'Grotichon'
+      }
+    ]
+  },
+  {
+    nationalId: 499,
+    name: 'Grotichon',
+    label: 'Pokémon Cochon Feu',
+    shiny: false,
+    types: ['Feu', 'Combat'],
+    weight: 55.5,
+    size: 1.0,
     parents: []
   },
   /* {
-    nationalId: 499,
-    name: 'Grotichon',
-    label: '',
-    shiny: false,
-    types: ['Feu', 'Combat'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 500,
     name: 'Roitiflam',
     label: '',
@@ -69,18 +74,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 501,
     name: 'Moustillon',
-    label: '',
+    label: 'Pokémon Loutre',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 5.9,
+    size: 0.5,
     parents: []
   },
-  {
+  /* {
     nationalId: 502,
     name: 'Mateloutre',
     label: '',
@@ -1084,18 +1089,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 599,
     name: 'Tic',
-    label: '',
+    label: 'Pokémon Engrenage',
     shiny: false,
     types: ['Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 21.0,
+    size: 0.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 600,
     name: 'Clic',
     label: '',
@@ -1176,13 +1181,13 @@ var unys = [
     parents: [
       {
         nationalId: 608,
-        name: 'Melancolux'
+        name: 'Mélancolux'
       }
     ]
   },
   {
     nationalId: 608,
-    name: 'Melancolux',
+    name: 'Mélancolux',
     label: 'Pokémon Lampe',
     shiny: false,
     types: ['Spectre', 'Feu'],
@@ -1419,18 +1424,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 632,
     name: 'Fermite',
-    label: '',
+    label: 'Pokémon Fourmi Dure',
     shiny: false,
     types: ['Insecte', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 33.0,
+    size: 0.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 633,
     name: 'Solochi',
     label: '',

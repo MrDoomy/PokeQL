@@ -783,7 +783,7 @@ var johto = [
     nationalId: 215,
     name: 'Farfuret',
     label: 'Pokémon Grifacérée',
-    shiny: false,
+    shiny: true,
     types: ['Tenebres', 'Glace'],
     weight: 28.0,
     size: 0.9,

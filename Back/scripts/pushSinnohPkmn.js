@@ -43,7 +43,7 @@ var sinnoh = [
     nationalId: 390,
     name: 'Ouisticram',
     label: 'Pokémon Chimpanzé',
-    shiny: false,
+    shiny: true,
     types: ['Feu'],
     weight: 6.2,
     size: 0.5,
@@ -58,7 +58,7 @@ var sinnoh = [
     nationalId: 391,
     name: 'Chimpanfeu',
     label: 'Pokémon Garnement',
-    shiny: false,
+    shiny: true,
     types: ['Feu', 'Combat'],
     weight: 22.0,
     size: 0.9,
@@ -73,7 +73,7 @@ var sinnoh = [
     nationalId: 392,
     name: 'Simiabraz',
     label: 'Pokémon Flamme',
-    shiny: false,
+    shiny: true,
     types: ['Feu', 'Combat'],
     weight: 55.0,
     size: 1.2,
@@ -331,6 +331,10 @@ var sinnoh = [
       {
         nationalId: 413,
         name: 'Cheniselle'
+      },
+      {
+        nationalId: 414,
+        name: 'Papilord'
       }
     ]
   },
@@ -344,16 +348,16 @@ var sinnoh = [
     size: 0.5,
     parents: []
   },
-  /* {
+  {
     nationalId: 414,
     name: 'Papilord',
-    label: '',
+    label: 'Pokémon Phalène',
     shiny: false,
     types: ['Insecte', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 23.3,
+    size: 0.9,
     parents: []
-  }, */
+  },
   {
     nationalId: 415,
     name: 'Apitrini',
@@ -913,7 +917,7 @@ var sinnoh = [
     nationalId: 461,
     name: 'Dimoret',
     label: 'Pokémon Grifacérée',
-    shiny: false,
+    shiny: true,
     types: ['Tenebres', 'Glace'],
     weight: 34.0,
     size: 1.1,
