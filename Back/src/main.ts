@@ -21,7 +21,7 @@ const uri: string = `mongodb://${config.host}:${config.port}/${config.db}`;
 // Instance Of Mongoose
 connect(uri, {
   useCreateIndex: true,
-  useFindAndModify: true,
+  useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true
 })

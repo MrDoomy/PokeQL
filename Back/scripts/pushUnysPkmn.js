@@ -83,19 +83,24 @@ var unys = [
     types: ['Eau'],
     weight: 5.9,
     size: 0.5,
+    parents: [
+      {
+        nationalId: 502,
+        name: 'Mateloutre'
+      }
+    ]
+  },
+  {
+    nationalId: 502,
+    name: 'Mateloutre',
+    label: 'Pokémon Entraînement',
+    shiny: false,
+    types: ['Eau'],
+    weight: 24.5,
+    size: 0.8,
     parents: []
   },
   /* {
-    nationalId: 502,
-    name: 'Mateloutre',
-    label: '',
-    shiny: false,
-    types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 503,
     name: 'Clamiral',
     label: '',
@@ -223,19 +228,24 @@ var unys = [
     types: ['Feu'],
     weight: 11.0,
     size: 0.6,
+    parents: [
+      {
+        nationalId: 514,
+        name: 'Flamoutan'
+      }
+    ]
+  },
+  {
+    nationalId: 514,
+    name: 'Flamoutan',
+    label: 'Pokémon Braise',
+    shiny: false,
+    types: ['Feu'],
+    weight: 28.0,
+    size: 1.0,
     parents: []
   },
   /* {
-    nationalId: 514,
-    name: 'Flamoutan',
-    label: '',
-    shiny: false,
-    types: ['Feu'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 515,
     name: 'Flotajou',
     label: '',
@@ -393,19 +403,24 @@ var unys = [
     types: ['Sol'],
     weight: 8.5,
     size: 0.3,
+    parents: [
+      {
+        nationalId: 530,
+        name: 'Minotaupe'
+      }
+    ]
+  },
+  {
+    nationalId: 530,
+    name: 'Minotaupe',
+    label: 'Pokémon Souterrain',
+    shiny: false,
+    types: ['Sol', 'Acier'],
+    weight: 40.4,
+    size: 0.7,
     parents: []
   },
   /* {
-    nationalId: 530,
-    name: 'Minotaupe',
-    label: '',
-    shiny: false,
-    types: ['Sol', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 531,
     name: 'Nanmeouie',
     label: '',
@@ -414,18 +429,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 532,
     name: 'Charpenti',
-    label: '',
+    label: 'Pokémon Costaud',
     shiny: false,
     types: ['Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 12.5,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 533,
     name: 'Ouvrifier',
     label: '',
@@ -444,28 +459,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 535,
     name: 'Tritonde',
-    label: '',
+    label: 'Pokémon Têtard',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 4.5,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 536,
+        name: 'Batracné'
+      }
+    ]
   },
   {
     nationalId: 536,
-    name: 'Batracne',
-    label: '',
+    name: 'Batracné',
+    label: 'Pokémon Vibration',
     shiny: false,
     types: ['Eau', 'Sol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 17.0,
+    size: 0.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 537,
     name: 'Crapustule',
     label: '',
@@ -484,18 +504,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 539,
-    name: 'Karaclee',
-    label: '',
+    name: 'Karaclée',
+    label: 'Pokémon Karaté',
     shiny: false,
     types: ['Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 51.0,
+    size: 1.4,
     parents: []
   },
-  {
+  /* {
     nationalId: 540,
     name: 'Larveyette',
     label: '',
@@ -524,28 +544,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 543,
     name: 'Venipatte',
-    label: '',
+    label: 'Pokémon Chilopode',
     shiny: false,
     types: ['Insecte', 'Poison'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 5.3,
+    size: 0.4,
+    parents: [
+      {
+        nationalId: 544,
+        name: 'Scobolide'
+      }
+    ]
   },
   {
     nationalId: 544,
     name: 'Scobolide',
-    label: '',
+    label: 'Pokémon Coconplopode',
     shiny: false,
     types: ['Insecte', 'Poison'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 58.5,
+    size: 1.2,
     parents: []
   },
-  {
+  /* {
     nationalId: 545,
     name: 'Brutapode',
     label: '',
@@ -594,18 +619,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 550,
     name: 'Bargantua',
-    label: '',
+    label: 'Pokémon Violent',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 18.0,
+    size: 1.0,
     parents: []
   },
-  {
+  /* {
     nationalId: 551,
     name: 'Mascaiman',
     label: '',
@@ -664,18 +689,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 557,
     name: 'Crabicoque',
-    label: '',
+    label: 'Pokémon Lithicole',
     shiny: false,
     types: ['Insecte', 'Roche'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 14.5,
+    size: 0.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 558,
     name: 'Crabaraque',
     label: '',
@@ -779,18 +804,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 568,
     name: 'Miamiasme',
-    label: '',
+    label: 'Pokémon Sac Poubelle',
     shiny: false,
     types: ['Poison'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 31.0,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 569,
     name: 'Miasmax',
     label: '',
@@ -979,18 +1004,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 588,
     name: 'Carabing',
-    label: '',
+    label: 'Pokémon Carabe',
     shiny: false,
     types: ['Insecte'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 5.9,
+    size: 0.5,
     parents: []
   },
-  {
+  /* {
     nationalId: 589,
     name: 'Lancargot',
     label: '',
@@ -1008,19 +1033,24 @@ var unys = [
     types: ['Plante', 'Poison'],
     weight: 1.0,
     size: 0.2,
+    parents: [
+      {
+        nationalId: 591,
+        name: 'Gaulet'
+      }
+    ]
+  },
+  {
+    nationalId: 591,
+    name: 'Gaulet',
+    label: 'Pokémon Champignon',
+    shiny: false,
+    types: ['Plante', 'Poison'],
+    weight: 10.5,
+    size: 0.6,
     parents: []
   },
   /* {
-    nationalId: 591,
-    name: 'Gaulet',
-    label: '',
-    shiny: false,
-    types: ['Plante', 'Poison'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 592,
     name: 'Viskuse',
     label: '',
@@ -1098,19 +1128,24 @@ var unys = [
     types: ['Acier'],
     weight: 21.0,
     size: 0.3,
+    parents: [
+      {
+        nationalId: 600,
+        name: 'Clic'
+      }
+    ]
+  },
+  {
+    nationalId: 600,
+    name: 'Clic',
+    label: 'Pokémon Engrenage',
+    shiny: false,
+    types: ['Acier'],
+    weight: 51.0,
+    size: 0.6,
     parents: []
   },
   /* {
-    nationalId: 600,
-    name: 'Clic',
-    label: '',
-    shiny: false,
-    types: ['Acier'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 601,
     name: 'Cliticlic',
     label: '',
@@ -1234,28 +1269,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 613,
     name: 'Polarhume',
-    label: '',
+    label: 'Pokémon Gelé',
     shiny: false,
     types: ['Glace'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 8.5,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 614,
+        name: 'Polagriffe'
+      }
+    ]
   },
   {
     nationalId: 614,
     name: 'Polagriffe',
-    label: '',
+    label: 'Pokémon Congelé',
     shiny: false,
     types: ['Glace'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 260.0,
+    size: 2.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 615,
     name: 'Hexagel',
     label: '',
