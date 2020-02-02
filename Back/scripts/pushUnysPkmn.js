@@ -374,18 +374,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 527,
     name: 'Chovsourir',
-    label: '',
+    label: 'Pokémon Chovsouris',
     shiny: false,
     types: ['Psy', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 2.1,
+    size: 0.4,
     parents: []
   },
-  {
+  /* {
     nationalId: 528,
     name: 'Rhinolove',
     label: '',
