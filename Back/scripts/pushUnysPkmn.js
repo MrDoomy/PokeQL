@@ -9,18 +9,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 495,
     name: 'Vipelierre',
-    label: '',
+    label: 'Pokémon Serpenterbe',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 8.1,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 496,
     name: 'Lianaja',
     label: '',
@@ -383,18 +383,23 @@ var unys = [
     types: ['Psy', 'Vol'],
     weight: 2.1,
     size: 0.4,
-    parents: []
+    parents: [
+      {
+        nationalId: 528,
+        name: 'Rhinolove'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 528,
     name: 'Rhinolove',
-    label: '',
+    label: 'Pokémon Cupidon',
     shiny: false,
     types: ['Psy', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 10.5,
+    size: 0.9,
     parents: []
-  }, */
+  },
   {
     nationalId: 529,
     name: 'Rototaupe',
@@ -709,18 +714,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 559,
     name: 'Baggiguane',
-    label: '',
+    label: 'Pokémon Mue',
     shiny: false,
     types: ['Tenebres', 'Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 11.8,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 560,
     name: 'Baggaid',
     label: '',
@@ -844,18 +849,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 572,
     name: 'Chinchidou',
-    label: '',
+    label: 'Pokémon Chinchilla',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 5.8,
+    size: 0.4,
     parents: []
   },
-  {
+  /* {
     nationalId: 573,
     name: 'Pashmilla',
     label: '',
@@ -1304,18 +1309,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 616,
     name: 'Escargaume',
-    label: '',
+    label: 'Pokémon Escargot',
     shiny: false,
     types: ['Insecte'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 7.7,
+    size: 0.4,
     parents: []
   },
-  {
+  /* {
     nationalId: 617,
     name: 'Limaspeed',
     label: '',
