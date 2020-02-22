@@ -18,19 +18,24 @@ var unys = [
     types: ['Plante'],
     weight: 8.1,
     size: 0.6,
+    parents: [
+      {
+        nationalId: 496,
+        name: 'Lianaja'
+      }
+    ]
+  },
+  {
+    nationalId: 496,
+    name: 'Lianaja',
+    label: 'Pokémon Serpenterbe',
+    shiny: false,
+    types: ['Plante'],
+    weight: 16.0,
+    size: 0.8,
     parents: []
   },
   /* {
-    nationalId: 496,
-    name: 'Lianaja',
-    label: '',
-    shiny: false,
-    types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 497,
     name: 'Majaspic',
     label: '',
@@ -325,17 +330,17 @@ var unys = [
     size: 1.2,
     parents: []
   },
-  /* {
+  {
     nationalId: 522,
     name: 'Zebibron',
-    label: '',
+    label: 'Pokémon Etincélec',
     shiny: false,
     types: ['Electrik'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 29.8,
+    size: 0.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 523,
     name: 'Zeblitz',
     label: '',
@@ -344,18 +349,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 524,
     name: 'Nodulithe',
-    label: '',
+    label: 'Pokémon Manteau',
     shiny: false,
     types: ['Roche'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 18.0,
+    size: 0.4,
     parents: []
   },
-  {
+  /* {
     nationalId: 525,
     name: 'Geolithe',
     label: '',
@@ -425,16 +430,16 @@ var unys = [
     size: 0.7,
     parents: []
   },
-  /* {
+  {
     nationalId: 531,
-    name: 'Nanmeouie',
-    label: '',
+    name: 'Nanméouïe',
+    label: 'Pokémon Audition',
     shiny: false,
     types: ['Normal'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 31.0,
+    size: 1.1,
     parents: []
-  }, */
+  },
   {
     nationalId: 532,
     name: 'Charpenti',

@@ -418,16 +418,21 @@ var sinnoh = [
     size: 1.1,
     parents: []
   },
-  /* {
+  {
     nationalId: 420,
     name: 'Ceribou',
-    label: '',
+    label: 'Pokémon Cerise',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  }, */
+    weight: 3.3,
+    size: 0.4,
+    parents: [
+      {
+        nationalId: 421,
+        name: 'Ceriflor'
+      }
+    ]
+  },
   {
     nationalId: 421,
     name: 'Ceriflor',
