@@ -1177,18 +1177,18 @@ var sinnoh = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 487,
     name: 'Giratina',
-    label: '',
-    shiny: false,
+    label: 'Pokémon Renégat',
+    shiny: true,
     types: ['Spectre', 'Dragon'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 750.0,
+    size: 4.5,
     parents: []
   },
-  {
+  /* {
     nationalId: 488,
     name: 'Cresselia',
     label: '',

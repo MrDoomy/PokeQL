@@ -1576,7 +1576,7 @@ var kanto = [
     nationalId: 122,
     name: 'Mr. Mime',
     label: 'Pokémon Bloqueur',
-    shiny: false,
+    shiny: true,
     types: ['Psy', 'Fee'],
     weight: 54.5,
     size: 1.3,
