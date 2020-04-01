@@ -588,7 +588,7 @@ var johto = [
     nationalId: 198,
     name: 'Cornèbre',
     label: 'Pokémon Obscurité',
-    shiny: false,
+    shiny: true,
     types: ['Tenebres', 'Vol'],
     weight: 2.1,
     size: 0.5,

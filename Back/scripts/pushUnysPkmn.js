@@ -895,27 +895,32 @@ var unys = [
     size: 0.5,
     parents: []
   },
-  /* {
+  {
     nationalId: 574,
     name: 'Scrutella',
-    label: '',
+    label: 'Pokémon Dévisageur',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 5.8,
+    size: 0.4,
+    parents: [
+      {
+        nationalId: 575,
+        name: 'Mesmérella'
+      }
+    ]
   },
   {
     nationalId: 575,
-    name: 'Mesmerella',
-    label: '',
+    name: 'Mesmérella',
+    label: 'Pokémon Magouilleur',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 18.0,
+    size: 0.7,
     parents: []
   },
-  {
+  /* {
     nationalId: 576,
     name: 'Siderella',
     label: '',
@@ -924,28 +929,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 577,
     name: 'Nucleos',
-    label: '',
+    label: 'Pokémon Cellule',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 1.0,
+    size: 0.3,
+    parents: [
+      {
+        nationalId: 578,
+        name: 'Méios'
+      }
+    ]
   },
   {
     nationalId: 578,
-    name: 'Meios',
-    label: '',
+    name: 'Méios',
+    label: 'Pokémon Divisé',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 8.0,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 579,
     name: 'Symbios',
     label: '',
@@ -1559,18 +1569,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 638,
     name: 'Cobaltium',
-    label: '',
+    label: 'Pokémon Coeur De Fer',
     shiny: false,
     types: ['Acier', 'Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 250.0,
+    size: 2.1,
     parents: []
   },
-  {
+  /* {
     nationalId: 639,
     name: 'Terrakium',
     label: '',
@@ -1629,18 +1639,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 645,
-    name: 'Demeteros',
-    label: '',
+    name: 'Démétéros',
+    label: 'Pokémon Fertilité',
     shiny: false,
     types: ['Sol', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 68.0,
+    size: 1.5,
     parents: []
   },
-  {
+  /* {
     nationalId: 646,
     name: 'Kyurem',
     label: '',

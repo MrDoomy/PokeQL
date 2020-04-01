@@ -542,7 +542,7 @@ var sinnoh = [
     nationalId: 430,
     name: 'Corboss',
     label: 'Pokémon Big Boss',
-    shiny: false,
+    shiny: true,
     types: ['Tenebres', 'Vol'],
     weight: 27.3,
     size: 0.9,
