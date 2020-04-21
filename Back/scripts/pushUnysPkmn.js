@@ -1119,27 +1119,32 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 595,
     name: 'Statitik',
-    label: '',
+    label: 'Pokémon Crampon',
     shiny: false,
     types: ['Insecte', 'Electrik'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 0.6,
+    size: 0.1,
+    parents: [
+      {
+        nationalId: 596,
+        name: 'Mygavolt'
+      }
+    ]
   },
   {
     nationalId: 596,
     name: 'Mygavolt',
-    label: '',
+    label: 'Pokémon Araclectrik',
     shiny: false,
     types: ['Insecte', 'Electrik'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 14.3,
+    size: 0.8,
     parents: []
-  }, */
+  },
   {
     nationalId: 597,
     name: 'Grindur',
@@ -1148,18 +1153,23 @@ var unys = [
     types: ['Plante', 'Acier'],
     weight: 18.8,
     size: 0.6,
-    parents: []
+    parents: [
+      {
+        nationalId: 598,
+        name: 'Noacier'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 598,
     name: 'Noacier',
-    label: '',
+    label: 'Pokémon Boule Epine',
     shiny: false,
     types: ['Plante', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 110.0,
+    size: 1.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 599,
     name: 'Tic',

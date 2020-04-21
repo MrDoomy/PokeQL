@@ -801,16 +801,16 @@ var hoenn = [
     size: 0.7,
     parents: []
   },
-  /* {
+  {
     nationalId: 314,
     name: 'Lumivole',
-    label: '',
+    label: 'Pokémon Luciole',
     shiny: false,
     types: ['Insecte'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 17.7,
+    size: 0.6,
     parents: []
-  }, */
+  },
   {
     nationalId: 315,
     name: 'Rosélia',
