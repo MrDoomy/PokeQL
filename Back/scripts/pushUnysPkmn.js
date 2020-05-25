@@ -68,18 +68,23 @@ var unys = [
     types: ['Feu', 'Combat'],
     weight: 55.5,
     size: 1.0,
-    parents: []
+    parents: [
+      {
+        nationalId: 500,
+        name: 'Roitiflam'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 500,
     name: 'Roitiflam',
-    label: '',
+    label: 'Pokémon Grochon Feu',
     shiny: false,
     types: ['Feu', 'Combat'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 150.0,
+    size: 1.6,
     parents: []
-  }, */
+  },
   {
     nationalId: 501,
     name: 'Moustillon',
@@ -1380,17 +1385,17 @@ var unys = [
     size: 0.8,
     parents: []
   },
-  /* {
+  {
     nationalId: 618,
     name: 'Limonde',
-    label: '',
+    label: 'Pokémon Piège',
     shiny: false,
     types: ['Sol', 'Electrik'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 11.0,
+    size: 0.7,
     parents: []
   },
-  {
+  /* {
     nationalId: 619,
     name: 'Kungfouine',
     label: '',

@@ -698,17 +698,17 @@ var sinnoh = [
     size: 1.0,
     parents: []
   },
-  /* {
+  {
     nationalId: 443,
     name: 'Griknot',
-    label: '',
+    label: 'Pokémon Terrequin',
     shiny: false,
     types: ['Dragon', 'Sol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 20.5,
+    size: 0.7,
     parents: []
   },
-  {
+  /* {
     nationalId: 444,
     name: 'Carmache',
     label: '',
@@ -1188,17 +1188,17 @@ var sinnoh = [
     size: 4.5,
     parents: []
   },
-  /* {
+  {
     nationalId: 488,
     name: 'Cresselia',
-    label: '',
+    label: 'Pokémon Lunaire',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 85.6,
+    size: 1.5,
     parents: []
   },
-  {
+  /* {
     nationalId: 489,
     name: 'Phione',
     label: '',
