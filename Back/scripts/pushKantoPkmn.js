@@ -163,7 +163,7 @@ var kanto = [
     nationalId: 13,
     name: 'Aspicot',
     label: 'Pokémon Insectopic',
-    shiny: false,
+    shiny: true,
     types: ['Insecte'],
     weight: 3.2,
     size: 0.3,    
@@ -178,7 +178,7 @@ var kanto = [
     nationalId: 14,
     name: 'Coconfort',
     label: 'Pokémon Cocon',
-    shiny: false,
+    shiny: true,
     types: ['Insecte', 'Poison'],
     weight: 10.0,
     size: 0.6,    
@@ -193,7 +193,7 @@ var kanto = [
     nationalId: 15,
     name: 'Dardargnan',
     label: 'Pokémon Guépoison',
-    shiny: false,
+    shiny: true,
     types: ['Insecte', 'Poison'],
     weight: 29.5,
     size: 1.0,
@@ -1056,7 +1056,7 @@ var kanto = [
     nationalId: 81,
     name: 'Magnéti',
     label: 'Pokémon Magnétique',
-    shiny: false,
+    shiny: true,
     types: ['Electrik', 'Acier'],
     weight: 6.0,
     size: 0.3,    
@@ -1071,7 +1071,7 @@ var kanto = [
     nationalId: 82,
     name: 'Magnéton',
     label: 'Pokémon Magnétique',
-    shiny: false,
+    shiny: true,
     types: ['Electrik', 'Acier'],
     weight: 60.0,
     size: 1.0,
@@ -1480,7 +1480,12 @@ var kanto = [
     types: ['Plante'],
     weight: 35.0,
     size: 1.0,
-    parents: []
+    parents: [
+      {
+        nationalId: 465,
+        name: 'Bouldeneu'
+      }
+    ]
   },
   {
     nationalId: 115,

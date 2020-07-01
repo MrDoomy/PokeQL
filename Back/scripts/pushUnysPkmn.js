@@ -108,18 +108,23 @@ var unys = [
     types: ['Eau'],
     weight: 24.5,
     size: 0.8,
-    parents: []
+    parents: [
+      {
+        nationalId: 503,
+        name: 'Clamiral'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 503,
     name: 'Clamiral',
-    label: '',
+    label: 'Pokémon Dignitaire',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 94.6,
+    size: 1.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 504,
     name: 'Ratentif',
@@ -693,19 +698,24 @@ var unys = [
     types: ['Feu'],
     weight: 37.5,
     size: 0.6,
+    parents: [
+      {
+        nationalId: 555,
+        name: 'Darumacho'
+      }
+    ]
+  },
+  {
+    nationalId: 555,
+    name: 'Darumacho',
+    label: 'Pokémon Enflammé',
+    shiny: false,
+    types: ['Feu'],
+    weight: 92.9,
+    size: 1.3,
     parents: []
   },
   /* {
-    nationalId: 555,
-    name: 'Darumacho',
-    label: '',
-    shiny: false,
-    types: ['Feu'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 556,
     name: 'Maracachi',
     label: '',
@@ -723,18 +733,23 @@ var unys = [
     types: ['Insecte', 'Roche'],
     weight: 14.5,
     size: 0.3,
-    parents: []
+    parents: [
+      {
+        nationalId: 558,
+        name: 'Crabaraque'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 558,
     name: 'Crabaraque',
-    label: '',
+    label: 'Pokémon Lapidicole',
     shiny: false,
     types: ['Insecte', 'Roche'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 200.0,
+    size: 1.4,
     parents: []
-  }, */
+  },
   {
     nationalId: 559,
     name: 'Baggiguane',
@@ -743,19 +758,24 @@ var unys = [
     types: ['Tenebres', 'Combat'],
     weight: 11.8,
     size: 0.6,
+    parents: [
+      {
+        nationalId: 560,
+        name: 'Baggaïd'
+      }
+    ]
+  },
+  {
+    nationalId: 560,
+    name: 'Baggaïd',
+    label: 'Pokémon Gang',
+    shiny: false,
+    types: ['Tenebres', 'Combat'],
+    weight: 30.0,
+    size: 1.1,
     parents: []
   },
   /* {
-    nationalId: 560,
-    name: 'Baggaid',
-    label: '',
-    shiny: false,
-    types: ['Tenebres', 'Combat'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 561,
     name: 'Cryptero',
     label: '',
@@ -879,7 +899,7 @@ var unys = [
     nationalId: 572,
     name: 'Chinchidou',
     label: 'Pokémon Chinchilla',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 5.8,
     size: 0.4,
@@ -1058,18 +1078,23 @@ var unys = [
     types: ['Insecte'],
     weight: 5.9,
     size: 0.5,
-    parents: []
+    parents: [
+      {
+        nationalId: 589,
+        name: 'Lancargot'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 589,
     name: 'Lancargot',
-    label: '',
+    label: 'Pokémon Chevalier',
     shiny: false,
     types: ['Insecte', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 33.0,
+    size: 1.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 590,
     name: 'Trompignon',
@@ -1114,17 +1139,17 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 594,
     name: 'Mamanbo',
-    label: '',
+    label: 'Pokémon Soigneur',
     shiny: false,
     types: ['Eau'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 31.6,
+    size: 1.2,
     parents: []
-  }, */
+  },
   {
     nationalId: 595,
     name: 'Statitik',
@@ -1198,19 +1223,24 @@ var unys = [
     types: ['Acier'],
     weight: 51.0,
     size: 0.6,
+    parents: [
+      {
+        nationalId: 601,
+        name: 'Cliticlic'
+      }
+    ]
+  },
+  {
+    nationalId: 601,
+    name: 'Cliticlic',
+    label: 'Pokémon Engrenage',
+    shiny: false,
+    types: ['Acier'],
+    weight: 81.0,
+    size: 0.6,
     parents: []
   },
   /* {
-    nationalId: 601,
-    name: 'Cliticlic',
-    label: '',
-    shiny: false,
-    types: ['Acier'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 602,
     name: 'Anchwatt',
     label: '',
@@ -1350,16 +1380,16 @@ var unys = [
     size: 2.6,
     parents: []
   },
-  /* {
+  {
     nationalId: 615,
     name: 'Hexagel',
-    label: '',
+    label: 'Pokémon Cristal',
     shiny: false,
     types: ['Glace'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 148.0,
+    size: 1.1,
     parents: []
-  }, */
+  },
   {
     nationalId: 616,
     name: 'Escargaume',
@@ -1435,17 +1465,17 @@ var unys = [
     size: 1.0,
     parents: []
   },
-  /* {
+  {
     nationalId: 623,
     name: 'Golemastoc',
-    label: '',
+    label: 'Pokémon Golem Ancien',
     shiny: false,
     types: ['Sol', 'Spectre'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 330.0,
+    size: 2.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 624,
     name: 'Scalpion',
     label: '',
@@ -1694,18 +1724,17 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 649,
     name: 'Genesect',
-    label: '',
+    label: 'Pokémon Paléozoïque',
     shiny: false,
     types: ['Insecte', 'Acier'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 82.5,
+    size: 1.5,
     parents: []
   }
-  */
 ];
 
 unys.forEach(function(pkmn) {

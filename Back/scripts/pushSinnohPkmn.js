@@ -653,16 +653,21 @@ var sinnoh = [
       }
     ]
   },
-  /* {
+  {
     nationalId: 439,
     name: 'Mime Jr.',
-    label: '',
+    label: 'Pokémon Mime',
     shiny: false,
     types: ['Psy', 'Fee'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  }, */
+    weight: 13.0,
+    size: 0.6,
+    parents: [
+      {
+        nationalId: 122,
+        name: 'Mr. Mime'
+      }
+    ]
+  },
   {
     nationalId: 440,
     name: 'Ptiravi',
@@ -958,16 +963,16 @@ var sinnoh = [
     size: 2.4,
     parents: []
   },
-  /* {
+  {
     nationalId: 465,
     name: 'Bouldeneu',
-    label: '',
+    label: 'Pokémon Vigne',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 128.6,
+    size: 2.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 466,
     name: 'Elekable',
