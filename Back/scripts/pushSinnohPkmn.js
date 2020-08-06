@@ -711,19 +711,24 @@ var sinnoh = [
     types: ['Dragon', 'Sol'],
     weight: 20.5,
     size: 0.7,
+    parents: [
+      {
+        nationalId: 444,
+        name: 'Carmache'
+      }
+    ]
+  },
+  {
+    nationalId: 444,
+    name: 'Carmache',
+    label: 'Pokémon Caverne',
+    shiny: false,
+    types: ['Dragon', 'Sol'],
+    weight: 56.0,
+    size: 1.4,
     parents: []
   },
   /* {
-    nationalId: 444,
-    name: 'Carmache',
-    label: '',
-    shiny: false,
-    types: ['Dragon', 'Sol'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 445,
     name: 'Carchacrok',
     label: '',
@@ -993,16 +998,16 @@ var sinnoh = [
     size: 1.6,
     parents: []
   },
-  /* {
+  {
     nationalId: 468,
     name: 'Togekiss',
-    label: '',
+    label: 'Pokémon Célébration',
     shiny: false,
     types: ['Fee', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 38.0,
+    size: 1.5,
     parents: []
-  }, */
+  },
   {
     nationalId: 469,
     name: 'Yanmega',

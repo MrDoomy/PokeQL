@@ -322,7 +322,12 @@ var johto = [
     types: ['Fee', 'Vol'],
     weight: 3.2,
     size: 0.6,
-    parents: []
+    parents: [
+      {
+        nationalId: 468,
+        name: 'Togekiss'
+      }
+    ]
   },
   {
     nationalId: 177,
@@ -933,7 +938,7 @@ var johto = [
     nationalId: 227,
     name: 'Airmure',
     label: 'Pokémon Armoiseau',
-    shiny: false,
+    shiny: true,
     types: ['Acier', 'Vol'],
     weight: 50.5,
     size: 1.7,

@@ -989,28 +989,33 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 580,
     name: 'Couaneton',
-    label: '',
+    label: 'Pokémon Oiseaudo',
     shiny: false,
     types: ['Eau', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 5.5,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 581,
+        name: 'Lakmecygne'
+      }
+    ]
   },
   {
     nationalId: 581,
     name: 'Lakmecygne',
-    label: '',
+    label: 'Pokémon Cygne',
     shiny: false,
     types: ['Eau', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 24.2,
+    size: 1.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 582,
     name: 'Sorbebe',
     label: '',
@@ -1565,17 +1570,17 @@ var unys = [
     size: 0.3,
     parents: []
   },
-  /* {
+  {
     nationalId: 633,
     name: 'Solochi',
-    label: '',
+    label: 'Pokémon Rude',
     shiny: false,
     types: ['Tenebres', 'Dragon'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 17.3,
+    size: 0.8,
     parents: []
   },
-  {
+  /* {
     nationalId: 634,
     name: 'Diamat',
     label: '',
