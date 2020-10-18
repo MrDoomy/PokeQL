@@ -1062,7 +1062,7 @@ var sinnoh = [
     nationalId: 474,
     name: 'Porygon-Z',
     label: 'Pokémon Virtuel',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 34.0,
     size: 0.9,

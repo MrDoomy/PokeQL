@@ -1008,7 +1008,7 @@ var johto = [
     nationalId: 233,
     name: 'Porygon2',
     label: 'Pokémon Virtuel',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 32.5,
     size: 0.6,

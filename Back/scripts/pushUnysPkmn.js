@@ -33,18 +33,23 @@ var unys = [
     types: ['Plante'],
     weight: 16.0,
     size: 0.8,
-    parents: []
+    parents: [
+      {
+        nationalId: 497,
+        name: 'Majaspic'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 497,
     name: 'Majaspic',
-    label: '',
+    label: 'Pokémon Majestueux',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 63.0,
+    size: 3.3,
     parents: []
-  }, */
+  },
   {
     nationalId: 498,
     name: 'Gruikui',
@@ -154,7 +159,7 @@ var unys = [
     nationalId: 506,
     name: 'Ponchiot',
     label: 'Pokémon Chiot',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 4.1,
     size: 0.4,
@@ -169,7 +174,7 @@ var unys = [
     nationalId: 507,
     name: 'Ponchien',
     label: 'Pokémon Chien Fidèle',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 14.7,
     size: 0.9,
@@ -184,7 +189,7 @@ var unys = [
     nationalId: 508,
     name: 'Mastouffe',
     label: 'Pokémon Magnanime',
-    shiny: false,
+    shiny: true,
     types: ['Normal'],
     weight: 61.0,
     size: 1.2,
@@ -342,24 +347,29 @@ var unys = [
   },
   {
     nationalId: 522,
-    name: 'Zebibron',
+    name: 'Zébibron',
     label: 'Pokémon Etincélec',
     shiny: false,
     types: ['Electrik'],
     weight: 29.8,
     size: 0.8,
-    parents: []
+    parents: [
+      {
+        nationalId: 523,
+        name: 'Zéblitz'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 523,
-    name: 'Zeblitz',
-    label: '',
+    name: 'Zéblitz',
+    label: 'Pokémon Foudrélec',
     shiny: false,
     types: ['Electrik'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 79.5,
+    size: 1.6,
     parents: []
-  }, */
+  },
   {
     nationalId: 524,
     name: 'Nodulithe',
@@ -368,28 +378,38 @@ var unys = [
     types: ['Roche'],
     weight: 18.0,
     size: 0.4,
-    parents: []
+    parents: [
+      {
+        nationalId: 525,
+        name: 'Géolithe'
+      }
+    ]
   },
-  /* {
+  {
     nationalId: 525,
-    name: 'Geolithe',
-    label: '',
+    name: 'Géolithe',
+    label: 'Pokémon Minerai',
     shiny: false,
     types: ['Roche'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 102.0,
+    size: 0.9,
+    parents: [
+      {
+        nationalId: 526,
+        name: 'Gigalithe'
+      }
+    ]
   },
   {
     nationalId: 526,
     name: 'Gigalithe',
-    label: '',
+    label: 'Pokémon Surpression',
     shiny: false,
     types: ['Roche'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 260.0,
+    size: 1.7,
     parents: []
-  }, */
+  },
   {
     nationalId: 527,
     name: 'Chovsourir',
@@ -458,19 +478,24 @@ var unys = [
     types: ['Combat'],
     weight: 12.5,
     size: 0.6,
+    parents: [
+      {
+        nationalId: 533,
+        name: 'Ouvrifier'
+      }
+    ]
+  },
+  {
+    nationalId: 533,
+    name: 'Ouvrifier',
+    label: 'Pokémon Costaud',
+    shiny: false,
+    types: ['Combat'],
+    weight: 40.0,
+    size: 1.2,
     parents: []
   },
   /* {
-    nationalId: 533,
-    name: 'Ouvrifier',
-    label: '',
-    shiny: false,
-    types: ['Combat'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 534,
     name: 'Betochef',
     label: '',
@@ -540,17 +565,17 @@ var unys = [
     size: 1.4,
     parents: []
   },
-  /* {
+  {
     nationalId: 540,
     name: 'Larveyette',
-    label: '',
+    label: 'Pokémon Couture',
     shiny: false,
     types: ['Insecte', 'Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 2.5,
+    size: 0.3,
     parents: []
   },
-  {
+  /* {
     nationalId: 541,
     name: 'Couverdure',
     label: '',
@@ -610,46 +635,56 @@ var unys = [
     size: 2.5,
     parents: []
   },
-  /* {
+  {
     nationalId: 546,
     name: 'Doudouvet',
-    label: '',
+    label: 'Pokémon Boule Coton',
     shiny: false,
     types: ['Plante', 'Fee'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 0.6,
+    size: 0.3,
+    parents: [
+      {
+        nationalId: 547,
+        name: 'Farfaduvet'
+      }
+    ]
   },
   {
     nationalId: 547,
     name: 'Farfaduvet',
-    label: '',
+    label: 'Pokémon Vole Vent',
     shiny: false,
     types: ['Plante', 'Fee'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 6.6,
+    size: 0.7,
     parents: []
   },
   {
     nationalId: 548,
     name: 'Chlorobule',
-    label: '',
+    label: 'Pokémon Racine',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 6.6,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 548,
+        name: 'Chlorobule'
+      }
+    ]
   },
   {
     nationalId: 549,
     name: 'Fragilady',
-    label: '',
+    label: 'Pokémon Chef-Fleur',
     shiny: false,
     types: ['Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 16.3,
+    size: 1.1,
     parents: []
-  }, */
+  },
   {
     nationalId: 550,
     name: 'Bargantua',
@@ -1044,18 +1079,18 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 585,
     name: 'Vivaldaim',
-    label: '',
+    label: 'Pokémon Saison',
     shiny: false,
     types: ['Normal', 'Plante'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 19.5,
+    size: 0.6,
     parents: []
   },
-  {
+  /* {
     nationalId: 586,
     name: 'Haydaim',
     label: '',
@@ -1064,17 +1099,17 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 587,
     name: 'Emolga',
-    label: '',
+    label: 'Pokémon Pteromys',
     shiny: false,
     types: ['Electrik', 'Vol'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 5.0,
+    size: 0.4,
     parents: []
-  }, */
+  },
   {
     nationalId: 588,
     name: 'Carabing',
@@ -1274,27 +1309,32 @@ var unys = [
     weight: 0.0,
     size: 0.0,
     parents: []
-  },
+  }, */
   {
     nationalId: 605,
     name: 'Lewsor',
-    label: '',
+    label: 'Pokémon Cerveau',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
+    weight: 9.0,
+    size: 0.5,
+    parents: [
+      {
+        nationalId: 606,
+        name: 'Neitram'
+      }
+    ]
   },
   {
     nationalId: 606,
     name: 'Neitram',
-    label: '',
+    label: 'Pokémon Cerveau',
     shiny: false,
     types: ['Psy'],
-    weight: 0.0,
-    size: 0.0,
+    weight: 34.5,
+    size: 1.0,
     parents: []
-  }, */
+  },
   {
     nationalId: 607,
     name: 'Funécire',
@@ -1578,19 +1618,24 @@ var unys = [
     types: ['Tenebres', 'Dragon'],
     weight: 17.3,
     size: 0.8,
+    parents: [
+      {
+        nationalId: 634,
+        name: 'Diamat'
+      }
+    ]
+  },
+  {
+    nationalId: 634,
+    name: 'Diamat',
+    label: 'Pokémon Violent',
+    shiny: false,
+    types: ['Tenebres', 'Dragon'],
+    weight: 50.0,
+    size: 1.4,
     parents: []
   },
   /* {
-    nationalId: 634,
-    name: 'Diamat',
-    label: '',
-    shiny: false,
-    types: ['Tenebres', 'Dragon'],
-    weight: 0.0,
-    size: 0.0,
-    parents: []
-  },
-  {
     nationalId: 635,
     name: 'Trioxhydre',
     label: '',
